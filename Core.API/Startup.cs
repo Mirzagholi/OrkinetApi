@@ -26,7 +26,7 @@ namespace Core.API
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
-        // test
+        // test edit by jafarzadeh
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<SiteSettings>(options => Configuration.Bind(options));

@@ -1,0 +1,25 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Core.API/bin/Debug/net6.0/Core.API.deps.json
+/Core.API/bin/Debug/net6.0/Core.API.dll
+/Core.API/bin/Debug/net6.0/Core.API.exe
+/Core.API/bin/Debug/net6.0/Core.API.pdb
+/Core.API/bin/Debug/net6.0/Core.API.runtimeconfig.json
+/Core.API/bin/Debug/net6.0/Core.API.xml
+/Core.API/bin/Debug/net6.0/Core.Common.dll
+/Core.API/bin/Debug/net6.0/Core.Common.pdb
+/Core.API/bin/Debug/net6.0/Core.Data.dll
+/Core.API/bin/Debug/net6.0/Core.Data.pdb
+/Core.API/bin/Debug/net6.0/Core.DataContract.dll
+/Core.API/bin/Debug/net6.0/Core.DataContract.pdb
+/Core.API/bin/Debug/net6.0/Core.Ioc.dll
+/Core.API/bin/Debug/net6.0/Core.Ioc.pdb
+/Core.API/bin/Debug/net6.0/Core.Models.dll
+/Core.API/bin/Debug/net6.0/Core.Models.pdb
+/Core.API/bin/Debug/net6.0/Core.Models.xml
+/Core.API/bin/Debug/net6.0/Core.Service.dll
+/Core.API/bin/Debug/net6.0/Core.Service.pdb
+/Core.API/bin/Debug/net6.0/Core.ServiceContract.dll
+/Core.API/bin/Debug/net6.0/Core.ServiceContract.pdb
