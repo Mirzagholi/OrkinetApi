@@ -1,0 +1,1440 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Core.Models</name>
+    </assembly>
+    <members>
+        <member name="P:Core.Models.Model.Security.User.SerialNumber">
+            <summary>
+            every time the user changes his Password,
+            or an admin changes his Roles or stat/IsActive,
+            create a new `SerialNumber` GUID and store it in the DB.
+            </summary>
+        </member>
+        <member name="P:Core.Models.Parameter.Security.User.LoginOrRegisterParam.MobileNumber">
+            <summary>
+            شماره موبایل
+            </summary>
+        </member>
+        <member name="T:Core.Models.Request.Business.Attribute.AddAttributeRequest">
+            <summary>
+            مدل پارامتر های ورودی ثبت ویژگی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Attribute.AddAttributeRequest.Name">
+            <summary>
+            نام ویژگی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Attribute.AddAttributeRequest.Order">
+            <summary>
+            ترتیب نمایش ویژگی 
+            </summary>
+        </member>
+        <member name="T:Core.Models.Request.Business.Attribute.UpdateAttributeRequest">
+            <summary>
+            مدل پارامتر های ورودی ثبت ویژگی عمومی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Attribute.UpdateAttributeRequest.Id">
+            <summary>
+            شناسه ویژگی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Attribute.UpdateAttributeRequest.Name">
+            <summary>
+            نام ویژگی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Attribute.UpdateAttributeRequest.Order">
+            <summary>
+            ترتیب نمایش ویژگی
+            </summary>
+        </member>
+        <member name="T:Core.Models.Request.Business.Attribute.UpdateAttributeStatusRequest">
+            <summary>
+            مدل پارامتر های  ورودی تغییر وضعیت ویژگی عمومی 
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Attribute.UpdateAttributeStatusRequest.Id">
+            <summary>
+            شناسه ویژگی عمومی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Attribute.UpdateAttributeStatusRequest.StatusId">
+            <summary>
+            شناسه وضعیت ویژگی عمومی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Blog.AddBlogRequest.Title">
+            <summary>
+            نام
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Blog.AddBlogRequest.File">
+            <summary>
+            تصویر 
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Blog.AddBlogRequest.Text">
+            <summary>
+            نام خانوادگی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Blog.DeleteBlogRequest.Id">
+            <summary>
+            شناسه
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Blog.UpdateBlogRequest.Id">
+            <summary>
+            شناسه
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Blog.UpdateBlogRequest.Title">
+            <summary>
+            نام
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Blog.UpdateBlogRequest.Text">
+            <summary>
+            نام خانوادگی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.AddCartRequest.ProductId">
+            <summary>
+            شناسه محصولات
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.AddCartRequest.Quantity">
+            <summary>
+            تعداد محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.CancelInquiryCartRequest.CartId">
+            <summary>
+            شناسه سبد خرید
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.CheckInquiryCartRequest.CartId">
+            <summary>
+            شناسه سبد خرید
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.GetAllUserCompleteCartRequest.PageNumber">
+            <summary>
+            شماره صفحه جاری
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.GetAllUserCompleteCartRequest.PageRecord">
+            <summary>
+            تعداد رکورد ها جهت نمایش
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.GetCartProviderCoordinateRequest.CartId">
+            <summary>
+            شناسه سبد خرید
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.GetCartUserCoordinateRequest.CartId">
+            <summary>
+            شناسه سبد خرید
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.PayCartRequest.CartId">
+            <summary>
+            شناسه سبد خرید
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetCartDeliveryPriceRequest.CartId">
+            <summary>
+            شناسه سبد خرید
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetCartInfoRequest.CartId">
+            <summary>
+            شناسه سبد خرید
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetCartInfoRequest.PostalCartId">
+            <summary>
+            شناسه کارت پستال
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetCartInfoRequest.CartDeliveryTypeId">
+            <summary>
+            شناسه نحوه ارسال
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetCartInfoRequest.CartDeliveryPlaceTypeId">
+            <summary>
+            شناسه نوع محل ارسال
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetCartInfoRequest.CartFailedDeliveryTypeId">
+            <summary>
+            شناسه حالات نبودن مشتری
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetCartInfoRequest.DailyDeliveryStartOn">
+            <summary>
+            تاریخ و زمان شروع تحویل روز
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetCartInfoRequest.DailyDeliveryEndOn">
+            <summary>
+            تاریخ و زمان پایان تحویل روز
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetCartInfoRequest.TomorrowDeliveryOn">
+            <summary>
+            تاریخ و زمان تحویل فردایی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetCartUserAddressRequest.CartId">
+            <summary>
+            شناسه سبد خرید
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetCartUserAddressRequest.UserAddressId">
+             <summary>
+            شناسه آدرس کاربر
+             </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetProviderCartStatusRequest.CartId">
+            <summary>
+             شناسه سبد خرید
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetProviderCartStatusRequest.StatusId">
+            <summary>
+            شناسه وضعیت
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetProviderCartStatusRequest.Description">
+            <summary>
+            توضیحات
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetResultInquiryCartRequest.CartId">
+            <summary>
+            شناسه سبد خرید
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetResultInquiryCartRequest.ProductId">
+            <summary>
+            شناسه محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.SetResultInquiryCartRequest.IsConfirm">
+            <summary>
+            وضعیت استعلام
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Cart.StartInquiryCartRequest.CartId">
+            <summary>
+            شناسه سبد خرید
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Category.AddCategoryRequest.Name">
+            <summary>
+            نام دسته
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Category.AddCategoryRequest.ParentId">
+            <summary>
+            شناسه پدر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Category.AddCategoryRequest.Order">
+            <summary>
+            ترتیب
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Category.AddCategoryRequest.Icon">
+            <summary>
+            کد آیکن
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Category.AddCategoryRequest.Description">
+            <summary>
+            توضیحات
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Category.UpdateCategoryRequest.Id">
+            <summary>
+            شناسه دسته
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Category.UpdateCategoryRequest.Name">
+            <summary>
+            نام دسته
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Category.UpdateCategoryRequest.ParentId">
+            <summary>
+            شناسه پدر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Category.UpdateCategoryRequest.Order">
+            <summary>
+            ترتیب
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Category.UpdateCategoryRequest.Icon">
+            <summary>
+            کد آیکن
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Category.UpdateCategoryRequest.Description">
+            <summary>
+            توضیحات
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Category.UpdateCategoryStatusRequest.Id">
+            <summary>
+            شناسه دسته
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Category.UpdateCategoryStatusRequest.StatusId">
+            <summary>
+            شناسه وضعیت ویژگی عمومی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Contact.AddContactUsRequest.FullName">
+            <summary>
+            نام و نام خانوادگی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Contact.AddContactUsRequest.Email">
+            <summary>
+            ایمیل
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Contact.AddContactUsRequest.Subject">
+            <summary>
+            موضوع
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Contact.AddContactUsRequest.ContactUsTypeId">
+            <summary>
+            شناسه نوع فرم 
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Contact.AddContactUsRequest.Description">
+            <summary>
+            توضیحات
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Favorite.AddFavoriteRequest.ProductId">
+            <summary>
+            شناسه محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Favorite.DeleteFavoriteRequest.ProductId">
+            <summary>
+            شناسه محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Favorite.GetAllFavoriteUiRequest.PageNumber">
+            <summary>
+            شماره صفحه جاری
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Favorite.GetAllFavoriteUiRequest.PageRecord">
+            <summary>
+            تعداد رکورد ها جهت نمایش
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.FinancialDocument.AddFinancialDocumentRequest.Name">
+            <summary>
+            نام سند
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.FinancialDocument.AddFinancialDocumentRequest.EndOn">
+            <summary>
+            تاریخ پایان سند
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateAttribute.AddPrivateAttributeRequest.Name">
+            <summary>
+            نام ویژگی خصوصی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateAttribute.AddPrivateAttributeRequest.Order">
+            <summary>
+            ترتیب نمایش
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateAttribute.UpdatePrivateAttributeRequest.Id">
+            <summary>
+            شناسه ویژگی خصوصی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateAttribute.UpdatePrivateAttributeRequest.Name">
+            <summary>
+            نام ویژگی خصوصی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateAttribute.UpdatePrivateAttributeRequest.Order">
+            <summary>
+            ترتیب نمایش
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateAttribute.UpdatePrivateAttributeStatusRequest.Id">
+            <summary>
+            شناسه ویژگی خصوصی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateAttribute.UpdatePrivateAttributeStatusRequest.StatusId">
+            <summary>
+            شناسه وضعیت ویژگی خصوصی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateValue.AddPrivateValueRequest.PrivateAttributeId">
+            <summary>
+            شناسه ویژگی خصوصی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateValue.AddPrivateValueRequest.Name">
+            <summary>
+            نام مقدار ویژگی خصوصی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateValue.AddPrivateValueRequest.Order">
+            <summary>
+            ترتیب نمایش
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateValue.GetCompletePrivateValueRequest.CategoryId">
+            <summary>
+            شناسه دستهٌ
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateValue.UpdatePrivateValueRequest.Id">
+            <summary>
+            شناسه مقدار
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateValue.UpdatePrivateValueRequest.PrivateAttributeId">
+            <summary>
+            شناسه ویژگی خصوصی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateValue.UpdatePrivateValueRequest.Name">
+            <summary>
+            نام مقدار ویژگی خصوصی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateValue.UpdatePrivateValueRequest.Order">
+            <summary>
+            ترتیب نمایش
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateValue.UpdatePrivateValueStatusRequest.Id">
+            <summary>
+            شناسه مقدار
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateValue.UpdatePrivateValueStatusRequest.PrivateAttributeId">
+            <summary>
+            شناسه ویژگی خصوصی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.PrivateValue.UpdatePrivateValueStatusRequest.StatusId">
+            <summary>
+            شناسه وضعیت
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductComment.AddUserProductCommentRequest.ProductId">
+            <summary>
+            شناسه محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductComment.AddUserProductCommentRequest.Text">
+            <summary>
+            متن نظر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductComment.GetAllProductCommentUiRequest.Id">
+            <summary>
+            شماره نظر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductComment.GetAllProductCommentUiRequest.PageNumber">
+            <summary>
+            شماره صفحه جاری
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductComment.GetAllProductCommentUiRequest.PageRecord">
+            <summary>
+            تعداد رکورد ها جهت نمایش
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductComment.ReplyAdminProductCommentRequest.ProductCommentId">
+            <summary>
+            شناسه نظر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductComment.ReplyAdminProductCommentRequest.Text">
+            <summary>
+            متن نظر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductComment.UpdateProductCommentConfirmRequest.Id">
+            <summary>
+            شناسه نظر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductComment.UpdateProductCommentConfirmRequest.IsConfirm">
+            <summary>
+            وضعیت نظر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDelivery.AddProductDeliveryRequest.Distance">
+            <summary>
+            فاصله به کیلومتر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDelivery.AddProductDeliveryRequest.PurchasePrice">
+            <summary>
+            مبلغ بر اساس سبد خرید
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDelivery.AddProductDeliveryRequest.Price">
+            <summary>
+            مبلغ
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDelivery.UpdateProductDeliveryRequest.Id">
+            <summary>
+            شناسه محدوده ارسال پیک
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDelivery.UpdateProductDeliveryRequest.Distance">
+            <summary>
+            فاصله به کیلومتر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDelivery.UpdateProductDeliveryRequest.PurchasePrice">
+            <summary>
+            مبلغ بر اساس سبد خرید
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDelivery.UpdateProductDeliveryRequest.Price">
+            <summary>
+            مبلغ
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDelivery.UpdateProductDeliveryStatusRequest.Id">
+            <summary>
+            شناسه محدوده ارسال
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDelivery.UpdateProductDeliveryStatusRequest.StatusId">
+            <summary>
+            شناسه وضعیت
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDiscount.AddProductDiscountRequest.ProductId">
+            <summary>
+            شناسه محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDiscount.AddProductDiscountRequest.Value">
+            <summary>
+            مبلغ
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDiscount.AddProductDiscountRequest.ExpiredOn">
+            <summary>
+            تاریخ انقضاء
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDiscount.UpdateProductDiscountRequest.Id">
+            <summary>
+            شناسه تخفیف
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDiscount.UpdateProductDiscountRequest.ProductId">
+            <summary>
+            شناسه محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDiscount.UpdateProductDiscountRequest.Value">
+            <summary>
+            مبلغ
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDiscount.UpdateProductDiscountRequest.ExpiredOn">
+            <summary>
+            تاریخ انقضاء
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDiscount.UpdateProductDiscountStatusRequest.Id">
+            <summary>
+            شناسه تخفیف
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductDiscount.UpdateProductDiscountStatusRequest.StatusId">
+            <summary>
+            شناسه وضعیت
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductPhoto.AddProductPhotoRequest.ProductId">
+            <summary>
+            شناسه محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductPhoto.AddProductPhotoRequest.ProviderGalleryId">
+            <summary>
+            شناسه تصویر گالری تصاویر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductPhoto.DeleteProductPhotoRequest.ProductId">
+            <summary>
+            شناسه محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductPhoto.DeleteProductPhotoRequest.ProviderGalleryId">
+            <summary>
+            شناسه تصویر گالری تصاویر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductPhoto.GetProductPhotoRequest.ProductId">
+            <summary>
+            شناسه محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductPrice.UpdateProductPriceRequest.Id">
+            <summary>
+            شناسه محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProductPrice.UpdateProductPriceRequest.Price">
+            <summary>
+            قیمت
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.AddProductRequest.Name">
+            <summary>
+            نام
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.AddProductRequest.CategoryIdes">
+            <summary>
+            شناسه دسته
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.AddProductRequest.Price">
+            <summary>
+            قیمت
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.AddProductRequest.ValueIdes">
+            <summary>
+            مقادیر عمومی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.AddProductRequest.PrivateValueIdes">
+            <summary>
+            مقادیر خصوصی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.AddProductRequest.ProviderGalleryIdes">
+            <summary>
+            شناسه گالری تصاویر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.AddProductRequest.PreparationTypeId">
+            <summary>
+            شناسه نوع محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.AddProductRequest.ShortDescription">
+            <summary>
+            توضیح کوتاه
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.AddProductRequest.Description">
+            <summary>
+            توضیح بلند
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.CheckProductForCartRequest.ProductId">
+            <summary>
+            شناسه محصولات
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.CheckProductForCartRequest.Price">
+            <summary>
+            مبلغ محصولات
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.CheckProductForCartRequest.DiscountPrice">
+            <summary>
+            تخفیف
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.ConfirmProductRequest.ProductId">
+            <summary>
+            شناسه محصول
+            </summary>
+        </member>
+        <member name="T:Core.Models.Request.Business.Product.GetAllProductUiRequest">
+            <summary>
+            پارامتر های ورودی سرویس دریافت محصولات برای نمایش در صفحه محصولات لندینگ
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetAllProductUiRequest.MenuId">
+            <summary>
+            شناسه دسته
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetAllProductUiRequest.StartingPrice">
+            <summary>
+            حداقل مبلغ
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetAllProductUiRequest.EndingPrice">
+            <summary>
+            حداکثر مبلغ
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetAllProductUiRequest.ProviderIdes">
+            <summary>
+            شناسه تامین کنندگان
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetAllProductUiRequest.SideBarIdes">
+            <summary>
+            شناسه های ساید بار
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetAllProductUiRequest.PageNumber">
+            <summary>
+            شماره صفحه جاری
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetAllProductUiRequest.PageRecord">
+            <summary>
+            تعداد رکورد ها جهت نمایش
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetCheapestProductUiRequest.MenuId">
+            <summary>
+            شناسه دسته
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetCheapestProductUiRequest.StartingPrice">
+            <summary>
+            حداقل مبلغ
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetCheapestProductUiRequest.EndingPrice">
+            <summary>
+            حداکثر مبلغ
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetCheapestProductUiRequest.ProviderIdes">
+            <summary>
+            شناسه تامین کنندگان
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetCheapestProductUiRequest.SideBarIdes">
+            <summary>
+            شناسه های ساید بار
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetCheapestProductUiRequest.PageNumber">
+            <summary>
+            شماره صفحه جاری
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetCheapestProductUiRequest.PageRecord">
+            <summary>
+            تعداد رکورد ها جهت نمایش
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetDiscountedProductUiRequest.MenuId">
+            <summary>
+            شناسه دسته
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetDiscountedProductUiRequest.StartingPrice">
+            <summary>
+            حداقل مبلغ
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetDiscountedProductUiRequest.EndingPrice">
+            <summary>
+            حداکثر مبلغ
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetDiscountedProductUiRequest.ProviderIdes">
+            <summary>
+            شناسه تامین کنندگان
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetDiscountedProductUiRequest.SideBarIdes">
+            <summary>
+            شناسه های ساید بار
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetDiscountedProductUiRequest.PageNumber">
+            <summary>
+            شماره صفحه جاری
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetDiscountedProductUiRequest.PageRecord">
+            <summary>
+            تعداد رکورد ها جهت نمایش
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetExpensiveProductUiRequest.MenuId">
+            <summary>
+            شناسه دسته
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetExpensiveProductUiRequest.StartingPrice">
+            <summary>
+            حداقل مبلغ
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetExpensiveProductUiRequest.EndingPrice">
+            <summary>
+            حداکثر مبلغ
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetExpensiveProductUiRequest.ProviderIdes">
+            <summary>
+            شناسه تامین کنندگان
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetExpensiveProductUiRequest.SideBarIdes">
+            <summary>
+            شناسه های ساید بار
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetExpensiveProductUiRequest.PageNumber">
+            <summary>
+            شماره صفحه جاری
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetExpensiveProductUiRequest.PageRecord">
+            <summary>
+            تعداد رکورد ها جهت نمایش
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetNewestProductUiRequest.MenuId">
+            <summary>
+            شناسه دسته
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetNewestProductUiRequest.StartingPrice">
+            <summary>
+            حداقل مبلغ
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetNewestProductUiRequest.EndingPrice">
+            <summary>
+            حداکثر مبلغ
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetNewestProductUiRequest.ProviderIdes">
+            <summary>
+            شناسه تامین کنندگان
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetNewestProductUiRequest.SideBarIdes">
+            <summary>
+            شناسه های ساید بار
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetNewestProductUiRequest.PageNumber">
+            <summary>
+            شماره صفحه جاری
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetNewestProductUiRequest.PageRecord">
+            <summary>
+            تعداد رکورد ها جهت نمایش
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetProductDetailUiRequest.ProductId">
+            <summary>
+            شناسه محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.UpdateProductRequest.Id">
+            <summary>
+            شناسه محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.UpdateProductRequest.Name">
+            <summary>
+            نام
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.UpdateProductRequest.CategoryIdes">
+            <summary>
+            شناسه دسته
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.UpdateProductRequest.Price">
+            <summary>
+            قیمت
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.UpdateProductRequest.Values">
+            <summary>
+            مقادیر عمومی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.UpdateProductRequest.PrivateValues">
+            <summary>
+            مقادیر خصوصی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.UpdateProductRequest.PreparationTypeId">
+            <summary>
+            شناسه نوع محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.UpdateProductRequest.ShortDescription">
+            <summary>
+            توضیح کوتاه
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.UpdateProductRequest.Description">
+            <summary>
+            توضیح بلند
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.UpdateProductStatusRequest.Id">
+            <summary>
+            شناسه محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.UpdateProductStatusRequest.StatusId">
+            <summary>
+            شناسه وضعیت
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderAbsorption.AddProviderAbsorptionRequest.FirstName">
+            <summary>
+            نام
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderAbsorption.AddProviderAbsorptionRequest.LastName">
+            <summary>
+            نام خانوادگی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderAbsorption.AddProviderAbsorptionRequest.ProviderName">
+            <summary>
+            نام تامین کننده
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderAbsorption.AddProviderAbsorptionRequest.PhoneNumber">
+            <summary>
+            شماره تماس
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderAbsorption.AddProviderAbsorptionRequest.Description">
+            <summary>
+            توضیحات
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderContact.AddProviderContactRequest.ContactValue">
+            <summary>
+            مقدار
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderContact.AddProviderContactRequest.ContactTypeId">
+            <summary>
+            شناسه نوع مخاطب
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderContact.DeleteProviderContactRequest.Id">
+            <summary>
+            شناسه مخاطب
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderGallery.AddProviderGalleryRequest.Files">
+            <summary>
+            تصویر ها
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderGallery.AddProviderGalleryRequest.ProviderId">
+            <summary>
+            شناسه تامین کننده
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderGallery.GetProviderGalleryRequest.ProviderId">
+            <summary>
+            شناسه تامین کننده
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderGallery.UpdateProviderGalleryStatusRequest.Id">
+            <summary>
+            شناسه تصویر گالری
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderGallery.UpdateProviderGalleryStatusRequest.StatusId">
+            <summary>
+            شناسه وضعیت
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderPhoto.AddProviderPhotoRequest.ProviderId">
+            <summary>
+            شناسه تامین کننده
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderPhoto.AddProviderPhotoRequest.ProviderGalleryId">
+            <summary>
+            شناسه تصویر گالری تصاویر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderPhoto.DeleteProviderPhotoRequest.ProviderId">
+            <summary>
+            شناسه تامین کننده
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderPhoto.DeleteProviderPhotoRequest.ProviderGalleryId">
+            <summary>
+            شناسه تصویر گالری تصاویر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.ProviderPhoto.GetProviderPhotoRequest.ProviderId">
+            <summary>
+            شناسه تامین کننده
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.AddProviderRequest.Name">
+            <summary>
+            نام تامین کننده
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.AddProviderRequest.Code">
+            <summary>
+            کد شناسایی تامین کننده
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.AddProviderRequest.ProviderTypeId">
+            <summary>
+            نوع تامین کننده( فروشگاه : 1 | کیوسک : 2 | عمده فروش : 3 ) 
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.AddProviderRequest.ProvinceId">
+            <summary>
+            شناسه استان
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.AddProviderRequest.CityId">
+            <summary>
+            شناسه شهر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.AddProviderRequest.RegionId">
+            <summary>
+            شناسه منطقه
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.AddProviderRequest.Address">
+            <summary>
+            آدرس
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.AddProviderUserMobileRequest.Id">
+            <summary>
+            شناسه تامین کننده
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.AddProviderUserMobileRequest.Mobile">
+            <summary>
+            موبایل تامین کننده
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.AddProviderUserRequest.Id">
+            <summary>
+            شناسه تامین کننده
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.AddProviderUserRequest.Username">
+            <summary>
+            نام کاربری
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.AddProviderUserRequest.Password">
+            <summary>
+            کلمه عبور
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.ConfirmProviderUserMobileRequest.Id">
+            <summary>
+            شناسه موبایل تامین کننده
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.ConfirmProviderUserMobileRequest.Mobile">
+            <summary>
+            موبایل تامین کننده
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.ConfirmProviderUserMobileRequest.ConfirmCode">
+            <summary>
+            کد تایید
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.GetClosestProviderUiRequest.Latitudes">
+            <summary>
+            Latitudes
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.GetClosestProviderUiRequest.Longitudes">
+            <summary>
+            Longitudes
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.SetProviderCoordinateRequest.Id">
+            <summary>
+            شناسه تامین کننده
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.SetProviderCoordinateRequest.Latitudes">
+            <summary>
+            Latitudes 
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.SetProviderCoordinateRequest.Longitudes">
+            <summary>
+            Longitudes 
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.UpdateProviderInfoRequest.ZipCode">
+            <summary>
+            کد پستی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.UpdateProviderInfoRequest.AgentName">
+            <summary>
+            نام و نام خانوادگی اپراتور
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.UpdateProviderInfoRequest.OfficialBill">
+            <summary>
+            سند مالی دارد
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.UpdateProviderInfoRequest.Logo">
+            <summary>
+            لوگو
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Provider.UpdateProviderInfoRequest.Description">
+            <summary>
+            توضیحات
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Rating.UpdateProductRatingRequest.ProductId">
+            <summary>
+            شناسه محصول
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Rating.UpdateProductRatingRequest.Rating">
+            <summary>
+            رتبه
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Rating.UpdateProviderRatingRequest.ProviderId">
+            <summary>
+            شناسه تامین کننده
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Rating.UpdateProviderRatingRequest.Rating">
+            <summary>
+            رتبه
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Value.AddValueRequest.Name">
+            <summary>
+            نام
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Value.AddValueRequest.AttributeId">
+            <summary>
+            شناسه ویژگی عمومی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Value.AddValueRequest.Order">
+            <summary>
+            ترتیب نمایش
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Value.GetValueRequest.AttributeId">
+            <summary>
+            شناسه ویژگی عمومی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Value.UpdateValueRequest.Id">
+            <summary>
+            شناسه 
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Value.UpdateValueRequest.Name">
+            <summary>
+            نام
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Value.UpdateValueRequest.AttributeId">
+            <summary>
+            شناسه ویژگی عمومی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Value.UpdateValueRequest.Order">
+            <summary>
+            ترتیب نمایش
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Value.UpdateValueStatusRequest.Id">
+            <summary>
+            شناسه
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Value.UpdateValueStatusRequest.StatusId">
+            <summary>
+            شناسه وضعیت
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.WebSiteFile.AddWebSiteFileRequest.File">
+            <summary>
+            فایل
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.WebSiteFile.AddWebSiteFileRequest.Title">
+            <summary>
+            شناسه تامین کننده
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.WebSiteFile.DeleteWebSiteFileRequest.Id">
+            <summary>
+            شناسه فایل
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.AddUserAddressRequest.ProvinceId">
+            <summary>
+            شناسه استان
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.AddUserAddressRequest.CityId">
+            <summary>
+            شناسه شهر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.AddUserAddressRequest.DistrictId">
+            <summary>
+            شناسه محله
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.AddUserAddressRequest.Address">
+            <summary>
+            آدرس
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.AddUserAddressRequest.ZipCode">
+            <summary>
+            کد پستی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.AddUserAddressRequest.HouseNumber">
+            <summary>
+             پلاک
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.AddUserAddressRequest.HouseUnit">
+            <summary>
+            واحد
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.AddUserAddressRequest.Latitudes">
+            <summary>
+            Latitudes
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.AddUserAddressRequest.Longitudes">
+            <summary>
+            Longitudes
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.AddUserAddressRequest.FirstName">
+            <summary>
+            نام
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.AddUserAddressRequest.LastName">
+            <summary>
+            نام خانوادگی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.AddUserAddressRequest.DeliveredToMe">
+            <summary>
+            تحویل گیرنده خودم هستم
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.AddUserAddressRequest.MobileNumber">
+            <summary>
+            شماره موبایل
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.DeleteUserAddressRequest.Id">
+            <summary>
+            شناسه
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.GetUserAddressByIdRequest.Id">
+            <summary>
+            شناسه
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.UpdateUserAddressRequest.Id">
+            <summary>
+            شناسه
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.UpdateUserAddressRequest.ProvinceId">
+            <summary>
+            شناسه استان
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.UpdateUserAddressRequest.CityId">
+            <summary>
+            شناسه شهر
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.UpdateUserAddressRequest.DistrictId">
+            <summary>
+            شناسه محله
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.UpdateUserAddressRequest.Address">
+            <summary>
+            آدرس
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.UpdateUserAddressRequest.ZipCode">
+            <summary>
+            کد پستی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.UpdateUserAddressRequest.HouseNumber">
+            <summary>
+             پلاک
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.UpdateUserAddressRequest.HouseUnit">
+            <summary>
+            واحد
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.UpdateUserAddressRequest.Latitudes">
+            <summary>
+            Latitudes
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.UpdateUserAddressRequest.Longitudes">
+            <summary>
+            Longitudes
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.UpdateUserAddressRequest.FirstName">
+            <summary>
+            نام
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.UpdateUserAddressRequest.LastName">
+            <summary>
+            نام خانوادگی
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.UpdateUserAddressRequest.DeliveredToMe">
+            <summary>
+            تحویل گیرنده خودم هستم
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.UserAddress.UpdateUserAddressRequest.MobileNumber">
+            <summary>
+            شماره موبایل
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.User.AuthenticateRequest.Username">
+            <summary>
+            نام کاربری
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.User.AuthenticateRequest.Password">
+            <summary>
+            کلمه عبور
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.User.LoginOrRegisterRequest.MobileNumber">
+            <summary>
+            شماره موبایل
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.User.LogOutRequest.RefreshToken">
+            <summary>
+            ریفرش توکن
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.User.ResetPasswordRequest.Username">
+            <summary>
+            نام کاربری
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.User.ResetPasswordRequest.ConfirmCode">
+            <summary>
+            کد تایید
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.User.ResetPasswordRequest.Password">
+            <summary>
+            کلمه عبور
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.User.SetPasswordRequest.Username">
+            <summary>
+            نام کاربری
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.User.SetPasswordRequest.Password">
+            <summary>
+            کلمه عبور
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.User.SetPasswordRequest.RePassword">
+            <summary>
+            تایید کلمه عبور
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.User.SignInViaRefreshTokenRequest.RefreshToken">
+            <summary>
+            ریفرش توکن
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.User.UserActivationRequest.Username">
+            <summary>
+            نام کاربری
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.User.UserActivationRequest.ConfirmCode">
+            <summary>
+            تایید کد تایید
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Security.User.UserConfirmCodeRequest.Username">
+            <summary>
+            نام کاربری
+            </summary>
+        </member>
+    </members>
+</doc>

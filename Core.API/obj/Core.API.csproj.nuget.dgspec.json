@@ -1,0 +1,655 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Api\\Core.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Api\\Core.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Api\\Core.API.csproj",
+        "projectName": "Core.API",
+        "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Api\\Core.API.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj"
+              },
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Ioc\\Core.Ioc.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Ioc\\Core.Ioc.csproj"
+              },
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Service\\Core.Service.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Service\\Core.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BingCdn.NetCoreConnector": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "GeoCoordinate.NetCore": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.16, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj",
+        "projectName": "Core.Common",
+        "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DNTCommon.Web.Core": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "ElmahCore": {
+              "target": "Package",
+              "version": "[2.0.7, )"
+            },
+            "ElmahCore.Sql": {
+              "target": "Package",
+              "version": "[2.0.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.16, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Common": {
+              "target": "Package",
+              "version": "[3.1.19, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.2.3, )"
+            },
+            "Parbad": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "Parbad.AspNetCore": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Parbad.Gateway.Sepehr": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Parbad.Storage.Cache": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.DataContract\\Core.DataContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.DataContract\\Core.DataContract.csproj",
+        "projectName": "Core.DataContract",
+        "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.DataContract\\Core.DataContract.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.DataContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj"
+              },
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Data\\Core.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Data\\Core.Data.csproj",
+        "projectName": "Core.Data",
+        "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Data\\Core.Data.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj"
+              },
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.DataContract\\Core.DataContract.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.DataContract\\Core.DataContract.csproj"
+              },
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.30, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Ioc\\Core.Ioc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Ioc\\Core.Ioc.csproj",
+        "projectName": "Core.Ioc",
+        "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Ioc\\Core.Ioc.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Ioc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj"
+              },
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Data\\Core.Data.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Data\\Core.Data.csproj"
+              },
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj"
+              },
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.ServiceContract\\Core.ServiceContract.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.ServiceContract\\Core.ServiceContract.csproj"
+              },
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Service\\Core.Service.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Service\\Core.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj",
+        "projectName": "Core.Models",
+        "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.ServiceContract\\Core.ServiceContract.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.ServiceContract\\Core.ServiceContract.csproj",
+        "projectName": "Core.ServiceContract",
+        "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.ServiceContract\\Core.ServiceContract.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.ServiceContract\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Service\\Core.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Service\\Core.Service.csproj",
+        "projectName": "Core.Service",
+        "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Service\\Core.Service.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj"
+              },
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Data\\Core.Data.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Data\\Core.Data.csproj"
+              },
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj"
+              },
+              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.ServiceContract\\Core.ServiceContract.csproj": {
+                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.ServiceContract\\Core.ServiceContract.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BingCdn.NetCoreConnector": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "GeoCoordinate.NetCore": {
+              "target": "Package",
+              "version": "[1.0.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

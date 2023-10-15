@@ -1,0 +1,15 @@
+D:\@Workspace\Orkinet\GolonetCore\Core.Models\bin\Release\netcoreapp3.1\Core.Models.deps.json
+D:\@Workspace\Orkinet\GolonetCore\Core.Models\bin\Release\netcoreapp3.1\Core.Models.dll
+D:\@Workspace\Orkinet\GolonetCore\Core.Models\bin\Release\netcoreapp3.1\Core.Models.pdb
+D:\@Workspace\Orkinet\GolonetCore\Core.Models\bin\Release\netcoreapp3.1\Core.Models.xml
+D:\@Workspace\Orkinet\GolonetCore\Core.Models\bin\Release\netcoreapp3.1\Core.Common.dll
+D:\@Workspace\Orkinet\GolonetCore\Core.Models\bin\Release\netcoreapp3.1\Core.Common.pdb
+D:\@Workspace\Orkinet\GolonetCore\Core.Models\obj\Release\netcoreapp3.1\Core.Models.csproj.AssemblyReference.cache
+D:\@Workspace\Orkinet\GolonetCore\Core.Models\obj\Release\netcoreapp3.1\Core.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\@Workspace\Orkinet\GolonetCore\Core.Models\obj\Release\netcoreapp3.1\Core.Models.AssemblyInfoInputs.cache
+D:\@Workspace\Orkinet\GolonetCore\Core.Models\obj\Release\netcoreapp3.1\Core.Models.AssemblyInfo.cs
+D:\@Workspace\Orkinet\GolonetCore\Core.Models\obj\Release\netcoreapp3.1\Core.Models.csproj.CoreCompileInputs.cache
+D:\@Workspace\Orkinet\GolonetCore\Core.Models\obj\Release\netcoreapp3.1\Core.Models.csproj.CopyComplete
+D:\@Workspace\Orkinet\GolonetCore\Core.Models\obj\Release\netcoreapp3.1\Core.Models.dll
+D:\@Workspace\Orkinet\GolonetCore\Core.Models\obj\Release\netcoreapp3.1\Core.Models.xml
+D:\@Workspace\Orkinet\GolonetCore\Core.Models\obj\Release\netcoreapp3.1\Core.Models.pdb

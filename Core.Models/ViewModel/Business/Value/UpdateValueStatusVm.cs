@@ -1,0 +1,11 @@
+﻿using Core.Common.Base;
+
+namespace Core.Models.ViewModel.Business.Value
+{
+    public class UpdateValueStatusVm : BaseDataResult
+    {
+        public int? Id { get; set; }
+        public int? MessageCode { get; set; }
+
+    }
+}

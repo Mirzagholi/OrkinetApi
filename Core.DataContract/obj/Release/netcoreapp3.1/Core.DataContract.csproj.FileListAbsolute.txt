@@ -1,0 +1,16 @@
+D:\@Workspace\Orkinet\GolonetCore\Core.DataContract\bin\Release\netcoreapp3.1\Core.DataContract.deps.json
+D:\@Workspace\Orkinet\GolonetCore\Core.DataContract\bin\Release\netcoreapp3.1\Core.DataContract.dll
+D:\@Workspace\Orkinet\GolonetCore\Core.DataContract\bin\Release\netcoreapp3.1\Core.DataContract.pdb
+D:\@Workspace\Orkinet\GolonetCore\Core.DataContract\bin\Release\netcoreapp3.1\Core.Common.dll
+D:\@Workspace\Orkinet\GolonetCore\Core.DataContract\bin\Release\netcoreapp3.1\Core.Models.dll
+D:\@Workspace\Orkinet\GolonetCore\Core.DataContract\bin\Release\netcoreapp3.1\Core.Common.pdb
+D:\@Workspace\Orkinet\GolonetCore\Core.DataContract\bin\Release\netcoreapp3.1\Core.Models.pdb
+D:\@Workspace\Orkinet\GolonetCore\Core.DataContract\bin\Release\netcoreapp3.1\Core.Models.xml
+D:\@Workspace\Orkinet\GolonetCore\Core.DataContract\obj\Release\netcoreapp3.1\Core.DataContract.csproj.AssemblyReference.cache
+D:\@Workspace\Orkinet\GolonetCore\Core.DataContract\obj\Release\netcoreapp3.1\Core.DataContract.GeneratedMSBuildEditorConfig.editorconfig
+D:\@Workspace\Orkinet\GolonetCore\Core.DataContract\obj\Release\netcoreapp3.1\Core.DataContract.AssemblyInfoInputs.cache
+D:\@Workspace\Orkinet\GolonetCore\Core.DataContract\obj\Release\netcoreapp3.1\Core.DataContract.AssemblyInfo.cs
+D:\@Workspace\Orkinet\GolonetCore\Core.DataContract\obj\Release\netcoreapp3.1\Core.DataContract.csproj.CoreCompileInputs.cache
+D:\@Workspace\Orkinet\GolonetCore\Core.DataContract\obj\Release\netcoreapp3.1\Core.DataContract.csproj.CopyComplete
+D:\@Workspace\Orkinet\GolonetCore\Core.DataContract\obj\Release\netcoreapp3.1\Core.DataContract.dll
+D:\@Workspace\Orkinet\GolonetCore\Core.DataContract\obj\Release\netcoreapp3.1\Core.DataContract.pdb

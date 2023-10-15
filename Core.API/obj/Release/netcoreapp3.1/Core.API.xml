@@ -1,0 +1,1064 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Core.API</name>
+    </assembly>
+    <members>
+        <member name="M:Core.Api.Controllers.Admin.AttributeController.AddAttribute(Core.Models.Request.Business.Attribute.AddAttributeRequest)">
+            <summary>
+            افزودن ویژگی عمومی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.AttributeController.UpdateAttribute(Core.Models.Request.Business.Attribute.UpdateAttributeRequest)">
+            <summary>
+            ویرایش ویژگی عمومی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.AttributeController.UpdateAttributeStatus(Core.Models.Request.Business.Attribute.UpdateAttributeStatusRequest)">
+            <summary>
+            تغییر وضعیت ویژگی عمومی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+            <remarks>شناسه وضعیت ( 1 : فعال | 2 : غیر فعال | 3: حذف شده )</remarks>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.AttributeController.GetAttributeById(System.Int32)">
+            <summary>
+            دریافت ویژگی عمومی بر اساس شناسه
+            </summary>
+            <param name="id">شناسه ویژگی عمومی</param>
+            <returns>ویژگی عمومی انتخابی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.AttributeController.GetAttribute(Core.Models.Request.Business.Attribute.GetAttributeRequest)">
+            <summary>
+            دریافت تمام ویژگی های عمومی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست ویژگی های عمومی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.BlogController.AddBlog(Core.Models.Request.Business.Blog.AddBlogRequest)">
+            <summary>
+            ثبت بلاگ
+            </summary>
+            <param name="request">پارامتر های مورد نیاز</param>
+            <returns>نتیجه عملیات برگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.BlogController.GetAllBlog(Core.Models.Request.Business.Blog.GetAllBlogRequest)">
+            <summary>
+            دریافت اطلاعات بلاگ
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست اطلاعات مورد نظر بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.CartController.GetAllActiveInquiryCart(Core.Models.Request.Business.Cart.GetAllActiveInquiryCartRequest)">
+            <summary>
+            دریافت اطلاعات استعلام سبد خرید برای ادمین
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست ویژگی های خصوصی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.CategoryController.AddCategory(Core.Models.Request.Business.Category.AddCategoryRequest)">
+            <summary>
+            افزودن دسته
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.CategoryController.UpdateCategory(Core.Models.Request.Business.Category.UpdateCategoryRequest)">
+            <summary>
+            ویرایش دسته
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.CategoryController.UpdateCategoryStatus(Core.Models.Request.Business.Category.UpdateCategoryStatusRequest)">
+            <summary>
+            تغییر وضعیت دسته
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+            <remarks>شناسه وضعیت ( 1 : فعال | 2 : غیر فعال | 3: حذف شده )</remarks>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.CategoryController.GetCategoryById(System.Int32)">
+            <summary>
+            دریافت دسته بر اساس شناسه
+            </summary>
+            <param name="id">شناسه دسته</param>
+            <returns>دسته انتخابی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.CategoryController.GetCategory">
+            <summary>
+            دریافت تمام دسته ها
+            </summary>
+            <returns>لیست دسته ها بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.FinancialDocumentController.AddFinancialDocument(Core.Models.Request.Business.FinancialDocument.AddFinancialDocumentRequest)">
+            <summary>
+            افزودن سند مالی
+            </summary>
+            <param name="request">پارامتر های مورد نیاز</param>
+            <returns>نتیجه عملیات برگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.FinancialDocumentController.GetAllFinancialDocument(Core.Models.Request.Business.FinancialDocument.GetAllFinancialDocumentRequest)">
+            <summary>
+            دریافت اطلاعات سند مالی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست اطلاعات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.FinancialDocumentController.GetAllFinancialDocumentInfo(Core.Models.Request.Business.FinancialDocument.GetAllFinancialDocumentInfoRequest)">
+            <summary>
+            دریافت اطلاعات ریز سند مالی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست اطلاعات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProductCommentController.GetAllProductComment(Core.Models.Request.Business.ProductComment.GetAllProductCommentRequest)">
+            <summary>
+            دریافت تمام نظرات کاربران
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست نظرات کاربران بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProductCommentController.UpdateProductCommentConfirm(Core.Models.Request.Business.ProductComment.UpdateProductCommentConfirmRequest)">
+            <summary>
+            تغییر وضعیت نظر
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProductCommentController.ReplyAdminProductComment(Core.Models.Request.Business.ProductComment.ReplyAdminProductCommentRequest)">
+            <summary>
+            پاسخ نظر ادمین
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProductCommentController.GetAllProductCommentReply(System.Int32)">
+            <summary>
+            دریافت تمام پاسخ نظرات
+            </summary>
+            <param name="productCommentId">شناسه کامنت</param>
+            <returns>لیست نظرات کاربران بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProductController.GetAllProductForAdmin(Core.Models.Request.Business.Product.GetAllProductForAdminRequest)">
+            <summary>
+            دریافت محصولات برای ادمین
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست محصولات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProductController.ConfirmProduct(Core.Models.Request.Business.Product.ConfirmProductRequest)">
+            <summary>
+            تایید محصول
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProviderAbsorptionController.GetAllProviderAbsorption(Core.Models.Request.Business.ProviderAbsorption.GetAllProviderAbsorptionRequest)">
+            <summary>
+            دریافت اطلاعات درخواست جذب تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست اطلاعات جذب بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProviderController.AddProvider(Core.Models.Request.Business.Provider.AddProviderRequest)">
+            <summary>
+            افزودن تامیین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProviderController.GetProvider(Core.Models.Request.Business.Provider.GetProviderRequest)">
+            <summary>
+            دریافت تمام تامین کنندگان
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست تامین کنندگان بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProviderController.GetActiveProvider(Core.Models.Request.Business.Provider.GetActiveProviderRequest)">
+            <summary>
+            دریافت تمام تامین کنندگان فعال
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست تامین کنندگان بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProviderController.SetProviderCoordinate(Core.Models.Request.Business.Provider.SetProviderCoordinateRequest)">
+            <summary>
+            افزودن مختصات تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProviderController.AddProviderUserMobile(Core.Models.Request.Business.Provider.AddProviderUserMobileRequest)">
+            <summary>
+            افزودن موبایل تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProviderController.ConfirmProviderUserMobile(Core.Models.Request.Business.Provider.ConfirmProviderUserMobileRequest)">
+            <summary>
+            تایید موبایل تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProviderController.AddProviderUser(Core.Models.Request.Business.Provider.AddProviderUserRequest)">
+            <summary>
+            ثبت کاربر تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProviderGalleryController.AddProviderGallery(Core.Models.Request.Business.ProviderGallery.AddProviderGalleryRequest)">
+            <summary>
+            افزودن تصویر به گالری تصاویر تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProviderGalleryController.GetProviderGallery(Core.Models.Request.Business.ProviderGallery.GetProviderGalleryRequest)">
+            <summary>
+            دریافت تمام تصاویر گالری تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست گالری تصاویر بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ProviderGalleryController.UpdateProviderGalleryStatus(Core.Models.Request.Business.ProviderGallery.UpdateProviderGalleryStatusRequest)">
+            <summary>
+            ویرایش وضعیت تصویر گالری تصاویر تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+            <remarks>شناسه وضعیت ( 1 : فعال | 2 : غیر فعال | 3: حذف شده )</remarks>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.RatingController.UpdateProductRating(Core.Models.Request.Business.Rating.UpdateProductRatingRequest)">
+            <summary>
+            به روز رسانی رتبه محصولات
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.RatingController.UpdateProviderRating(Core.Models.Request.Business.Rating.UpdateProviderRatingRequest)">
+            <summary>
+            به روز رسانی رتبه تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ValueController.AddValue(Core.Models.Request.Business.Value.AddValueRequest)">
+            <summary>
+            افزودن مقدار ویژگی عمومی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ValueController.UpdateValue(Core.Models.Request.Business.Value.UpdateValueRequest)">
+            <summary>
+            ویرایش مقدار ویژگی عمومی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ValueController.UpdateValueStatus(Core.Models.Request.Business.Value.UpdateValueStatusRequest)">
+            <summary>
+            تغییر وضعیت مقدار ویژگی عمومی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+            <remarks>شناسه وضعیت ( 1 : فعال | 2 : غیر فعال | 3: حذف شده )</remarks>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ValueController.GetValueById(System.Int32)">
+            <summary>
+            دریافت مقدار ویژگی عمومی بر اساس شناسه
+            </summary>
+            <param name="id">شناسه مقدار ویژگی عمومی</param>
+            <returns>مقدار ویژگی عمومی انتخابی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.ValueController.GetValue(Core.Models.Request.Business.Value.GetValueRequest)">
+            <summary>
+            دریافت تمام مقدار ویژگی های عمومی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست مقدار ویژگی های عمومی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.WebSiteFileController.AddWebSiteFile(Core.Models.Request.Business.WebSiteFile.AddWebSiteFileRequest)">
+            <summary>
+            افزودن فایل
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.WebSiteFileController.GetAllWebSiteFile(Core.Models.Request.Business.WebSiteFile.GetAllWebSiteFileRequest)">
+            <summary>
+            دریافت تمام فایل ها
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست فایل ها بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Admin.WebSiteFileController.DeleteWebSiteFile(Core.Models.Request.Business.WebSiteFile.DeleteWebSiteFileRequest)">
+            <summary>
+            حذف فایل
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProviderPhotoController.AddProviderPhoto(Core.Models.Request.Business.ProviderPhoto.AddProviderPhotoRequest)">
+            <summary>
+            اتصال تصویر به تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProviderPhotoController.GetProviderPhoto(Core.Models.Request.Business.ProviderPhoto.GetProviderPhotoRequest)">
+            <summary>
+            دریافت تمام تصاویر تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست تصاویر محصولات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProviderPhotoController.DeleteProviderPhoto(Core.Models.Request.Business.ProviderPhoto.DeleteProviderPhotoRequest)">
+            <summary>
+            حذف اتصال تصویر به تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.CartController.GetAllProviderInquiryCart(Core.Models.Request.Business.Cart.GetAllProviderInquiryCartRequest)">
+            <summary>
+            دریافت اطلاعات استعلام سبد خرید برای تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست سبد خرید بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.CartController.SetResultInquiryCart(Core.Models.Request.Business.Cart.SetResultInquiryCartRequest)">
+            <summary>
+            تعیین وضعیت استعلام
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.CartController.GetProviderInquiryCartInfo(System.Int32)">
+            <summary>
+            دربافت اطلاعات تکمیلی استعلام
+            </summary>
+            <param name="cartId">شناسه سبد خرید</param>
+            <returns>لیست اطلاعات تکمیلی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.CartController.GetAllProviderCompleteCart(Core.Models.Request.Business.Cart.GetAllProviderCompleteCartRequest)">
+            <summary>
+            دریافت اطلاعات سبد خرید برای تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست سبد خرید بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.CartController.GetProviderCompleteCartInfo(System.Int32)">
+            <summary>
+            دربافت اطلاعات تکمیلی سفارش
+            </summary>
+            <param name="cartId">شناسه سبد خرید</param>
+            <returns>لیست اطلاعات تکمیلی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.CartController.SetProviderCartStatus(Core.Models.Request.Business.Cart.SetProviderCartStatusRequest)">
+            <summary>
+            تعیین وضعیت سفارش
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.IndexController.GetProviderIndexData">
+            <summary>
+            دریافت اطلاعات صفحه اصلی برای سبد خرید
+            </summary>
+            <returns>اطلاعات صفحه اصلی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.PrivateAttributeController.GetPrivateAttribute(Core.Models.Request.Business.PrivateAttribute.GetPrivateAttributeRequest)">
+            <summary>
+            دریافت تمام ویژگی های خصوصی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست ویژگی های خصوصی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.PrivateAttributeController.AddPrivateAttribute(Core.Models.Request.Business.PrivateAttribute.AddPrivateAttributeRequest)">
+            <summary>
+            افزودن ویژگی خصوصی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.PrivateAttributeController.UpdatePrivateAttribute(Core.Models.Request.Business.PrivateAttribute.UpdatePrivateAttributeRequest)">
+            <summary>
+            ویرایش ویژگی خصوصی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.PrivateAttributeController.UpdatePrivateAttributeStatus(Core.Models.Request.Business.PrivateAttribute.UpdatePrivateAttributeStatusRequest)">
+            <summary>
+            تغییر وضعیت ویژگی خصوصی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+            <remarks>شناسه وضعیت ( 1 : فعال | 2 : غیر فعال | 3: حذف شده )</remarks>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.PrivateAttributeController.GetPrivateAttributeDropDown">
+            <summary>
+            دریافت تمام ویژگی های خصوصی برای باکس کشویی
+            </summary>
+            <returns>لیست ویژگی های خصوصی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.PrivateValueController.AddPrivateValue(Core.Models.Request.Business.PrivateValue.AddPrivateValueRequest)">
+            <summary>
+            افزودن مقدار ویژگی خصوصی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.PrivateValueController.GetPrivateValue(Core.Models.Request.Business.PrivateValue.GetPrivateValueRequest)">
+            <summary>
+            دریافت تمام مقادیر ویژگی های خصوصی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست مقادیر ویژگی های خصوصی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.PrivateValueController.UpdatePrivateValue(Core.Models.Request.Business.PrivateValue.UpdatePrivateValueRequest)">
+            <summary>
+            ویرایش مقدار ویژگی خصوصی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.PrivateValueController.UpdatePrivateValueStatus(Core.Models.Request.Business.PrivateValue.UpdatePrivateValueStatusRequest)">
+            <summary>
+            تغییر وضعیت مقدار ویژگی خصوصی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+            <remarks>شناسه وضعیت ( 1 : فعال | 2 : غیر فعال | 3: حذف شده )</remarks>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.PrivateValueController.GetCompletePrivateValueDropDown(Core.Models.Request.Business.PrivateValue.GetCompletePrivateValueRequest)">
+            <summary>
+            دریافت تمام مقادیر ویژگی خصوصی برای باکس کشویی
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست مقادیر ویژگی های خصوصی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductController.AddProduct(Core.Models.Request.Business.Product.AddProductRequest)">
+            <summary>
+            افزودن محصولات
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductController.GetProduct(Core.Models.Request.Business.Product.GetProductRequest)">
+            <summary>
+            دریافت محصولات
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست محصولات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductController.UpdateProduct(Core.Models.Request.Business.Product.UpdateProductRequest)">
+            <summary>
+            ویرایش محصولات
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+            <remarks>شناسه نوع نحویل ( 1 : ارسال روز | 2 : ارسال فردایی  )</remarks>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductController.UpdateProductStatus(Core.Models.Request.Business.Product.UpdateProductStatusRequest)">
+            <summary>
+            تغییر وضعیت محصولات
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+            <remarks>شناسه وضعیت ( 1 : فعال | 2 : غیر فعال | 3: حذف شده )</remarks>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductController.GetProductDropDown">
+            <summary>
+            دریافت تمام محصولات برای باکس کشویی
+            </summary>
+            <returns>لیست محصولات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductController.GetProviderProductById(System.Int32)">
+            <summary>
+            دریافت محصول با شناسه
+            </summary>
+            <returns>لیست محصولات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductDeliveryController.AddProductDelivery(Core.Models.Request.Business.ProductDelivery.AddProductDeliveryRequest)">
+            <summary>
+            افزودن محدوده ارسال
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductDeliveryController.GetProductDelivery(Core.Models.Request.Business.ProductDelivery.GetProductDeliveryRequest)">
+            <summary>
+            دریافت تمام محدوده های ارسال
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست محدوده ارسال بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductDeliveryController.UpdateProductDelivery(Core.Models.Request.Business.ProductDelivery.UpdateProductDeliveryRequest)">
+            <summary>
+            ویرایش محدوده ارسال
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductDeliveryController.UpdateProductDeliveryStatus(Core.Models.Request.Business.ProductDelivery.UpdateProductDeliveryStatusRequest)">
+            <summary>
+            تغییر وضعیت محدوده ارسال
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+            <remarks>شناسه وضعیت ( 1 : فعال | 2 : غیر فعال | 3: حذف شده )</remarks>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductDiscountController.AddProductDiscount(Core.Models.Request.Business.ProductDiscount.AddProductDiscountRequest)">
+            <summary>
+            افزودن تخفیف محصولات
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductDiscountController.GetProductDiscount(Core.Models.Request.Business.ProductDiscount.GetProductDiscountRequest)">
+            <summary>
+            دریافت تمام تخفیف های محصولات
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست تخفیف ها بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductDiscountController.UpdateProductDiscount(Core.Models.Request.Business.ProductDiscount.UpdateProductDiscountRequest)">
+            <summary>
+            ویرایش تخفیف محصولات
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductDiscountController.UpdateProductDiscountStatus(Core.Models.Request.Business.ProductDiscount.UpdateProductDiscountStatusRequest)">
+            <summary>
+            تغییر وضعیت تخفیف محصول
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+            <remarks>شناسه وضعیت ( 1 : فعال | 2 : غیر فعال | 3: حذف شده )</remarks>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductPhotoController.AddProductPhoto(Core.Models.Request.Business.ProductPhoto.AddProductPhotoRequest)">
+            <summary>
+            اتصال تصویر به محصول
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductPhotoController.GetProductPhoto(Core.Models.Request.Business.ProductPhoto.GetProductPhotoRequest)">
+            <summary>
+            دریافت تمام تصاویر محصولات
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست تصاویر محصولات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductPhotoController.DeleteProductPhoto(Core.Models.Request.Business.ProductPhoto.DeleteProductPhotoRequest)">
+            <summary>
+            حذف اتصال تصویر به محصول
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProductPriceController.UpdateProductPrice(Core.Models.Request.Business.ProductPrice.UpdateProductPriceRequest)">
+            <summary>
+            ثبت جدید قیمت محصول
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProviderContactController.GetProviderContact">
+            <summary>
+            دریافت تمام مخاطبین تامین کننده
+            </summary>
+            <returns>لیست ویژگی های عمومی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProviderContactController.AddProviderContact(Core.Models.Request.Business.ProviderContact.AddProviderContactRequest)">
+            <summary>
+            ثبت مخاطبین تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProviderContactController.DeleteProviderContact(Core.Models.Request.Business.ProviderContact.DeleteProviderContactRequest)">
+            <summary>
+            حذف مخاطبین تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProviderController.GetProviderInfo">
+            <summary>
+            دریافت اطلاعات تامین کننده لاگین شده
+            </summary>
+            <returns>اطلاعات تامین کننده انتخابی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProviderController.UpdateProviderInfo(Core.Models.Request.Business.Provider.UpdateProviderInfoRequest)">
+            <summary>
+            ویرایش اطلاعات تامین کننده لاگین شده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.Provider.ProviderGalleryController.GetProviderGallery">
+            <summary>
+            دریافت گالری تصاویر تامین کننده
+            </summary>
+            <returns>لیست ویژگی های عمومی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.AccountController.LoginOrRegister(Core.Models.Request.Security.User.LoginOrRegisterRequest)">
+            <summary>
+            بررسی وضعیت ثبت نام 
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>وضعیت ثبت نام مربوطه بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.AccountController.SetPassword(Core.Models.Request.Security.User.SetPasswordRequest)">
+            <summary>
+            ثبت کلمه عبور 
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>در صورت تایید توکن مربوطه بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.AccountController.Authenticate(Core.Models.Request.Security.User.AuthenticateRequest)">
+            <summary>
+            احراز هویت کاربران سایت
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>در صورت تایید توکن مربوطه بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.AccountController.UserActivation(Core.Models.Request.Security.User.UserActivationRequest)">
+            <summary>
+            فعال سازی کاربران لندینگ
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>در صورت تایید توکن مربوطه بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.AccountController.GetUserInfo">
+            <summary>
+            دریافت اطلاعات کاربر احراز هویت شده
+            </summary>
+            <returns>اطلاعات کاربر بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.AccountController.UserConfirmCode(Core.Models.Request.Security.User.UserConfirmCodeRequest)">
+            <summary>
+            ارسال کد تایید به ایمیل یا موبایل
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.AccountController.ResetPassword(Core.Models.Request.Security.User.ResetPasswordRequest)">
+            <summary>
+            تغییر کلمه عبور
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>        
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.AccountController.UpdateUser(Core.Models.Request.Security.User.UpdateUserRequest)">
+            <summary>
+            ویرایش کاربر احراز هویت شده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.AccountController.SignInViaRefreshToken(Core.Models.Request.Security.User.SignInViaRefreshTokenRequest)">
+            <summary>
+            احراز هویت با استفاده از رفرش توکن 
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>وضعیت ثبت نام مربوطه بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.AccountController.Logout(Core.Models.Request.Security.User.LogOutRequest)">
+            <summary>
+            خروج کاربر
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.BlogController.GetAllBlogUi">
+            <summary>
+            دریافت لیست بلاگ برای صفحه لندینگ
+            </summary>
+            <returns>لیست بلاگ بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.BlogController.GetAllBlogInfoUi(System.Int32)">
+            <summary>
+            دریافت بلاگ انتخابی برای صفحه لندینگ
+            </summary>
+            <returns> بلاگ بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.CartController.AddCart(System.Collections.Generic.List{Core.Models.Request.Business.Cart.AddCartRequest})">
+            <summary>
+            افزودن آیتم ها به سبد خرید
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>       
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.CartController.SetCartUserAddress(Core.Models.Request.Business.Cart.SetCartUserAddressRequest)">
+            <summary>
+            افزودن آدرس محصول به سبد خرید
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>       
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.CartController.StartInquiryCart(Core.Models.Request.Business.Cart.StartInquiryCartRequest)">
+            <summary>
+            شروع استعلام سبد خرید
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>       
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.CartController.CheckInquiryCart(Core.Models.Request.Business.Cart.CheckInquiryCartRequest)">
+            <summary>
+            نمایش استعلام سبد خرید
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns> 
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.CartController.SetCartDeliveryPrice(Core.Models.Request.Business.Cart.SetCartDeliveryPriceRequest)">
+            <summary>
+            مشخص نمودن هزینه ارسال سبد خرید
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>       
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.CartController.CancelInquiryCart(Core.Models.Request.Business.Cart.CancelInquiryCartRequest)">
+            <summary>
+            لغو استعلام
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>       
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.CartController.SetCartInfo(Core.Models.Request.Business.Cart.SetCartInfoRequest)">
+            <summary>
+            افزودن اطلاعات تکمیلی سبد خرید
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>       
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.CartController.PayCart(Core.Models.Request.Business.Cart.PayCartRequest)">
+            <summary>
+            پرداخت سبد خرید
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>       
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.CartController.BankVerify">
+            <summary>
+            بازگشت بانک
+            </summary>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>       
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.CartController.GetCartBankResponse(System.Int32)">
+            <summary>
+            دریافت نتیجه بانک برای سبد خرید
+            </summary>
+            <param name="cartId">پارامتر های ورودی</param>
+            <returns>شماره تراکنش بازگشت داده می شود</returns>       
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.CartController.GetAllUserCompleteCart(Core.Models.Request.Business.Cart.GetAllUserCompleteCartRequest)">
+            <summary>
+            دریافت تمام سفارشات کاربر
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست سفارشات بازگشت داده می شود</returns>       
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.CartController.GetUserCompleteCartInfo(System.Int32)">
+            <summary>
+            دربافت اطلاعات تکمیلی سفارش
+            </summary>
+            <param name="cartId">شناسه سبد خرید</param>
+            <returns>لیست اطلاعات تکمیلی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.CartDeliveryPlaceTypeController.GetAllCartDeliveryPlaceType">
+            <summary>
+            دریافت تمامی نوع محل ارسال سفارش
+            </summary>
+            <returns>لیست نوع محل ارسال بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.CartDeliveryTypeController.GetAllCartDeliveryType">
+            <summary>
+            دریافت تمامی نوع ارسال سفارش
+            </summary>
+            <returns>لیست نوع ارسال بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.CartFailedDeliveryTypeController.GetAllCartFailedDeliveryType">
+            <summary>
+            دریافت تمامی حالات نبودن مشتری سفارش
+            </summary>
+            <returns>لیست حالات نبودن مشتری بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ContactController.AddContactUs(Core.Models.Request.Business.Contact.AddContactUsRequest)">
+            <summary>
+            ثبت فرم ارتباط با سایت
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+            <remarks>شناسه نوع فرم ( 1 : نظر و پیشنهاد | 2 : ارتباط با ما | 3: شکایت و انتقاد )</remarks>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.FavoriteController.AddFavorite(Core.Models.Request.Business.Favorite.AddFavoriteRequest)">
+            <summary>
+            افزودن محسول به علاقمندی ها
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.FavoriteController.DeleteFavorite(Core.Models.Request.Business.Favorite.DeleteFavoriteRequest)">
+            <summary>
+            حذف محسول از علاقمندی ها
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.FavoriteController.GetAllFavoriteUi(Core.Models.Request.Business.Favorite.GetAllFavoriteUiRequest)">
+            <summary>
+            دریافت تمام محصولات برای صفحه علاقمندی ها
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست محصولات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.MenuController.GetRootMenuBox">
+            <summary>
+            دریافت تمام دسته های پدر برای کتگوری باکس
+            </summary>
+            <returns>لیست دسته های پدر بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.MenuController.GetSubMenuBox(System.Int32)">
+            <summary>
+            دریافت تمام زیر دسته ها برای کتگوری باکس
+            </summary>
+            <returns>ویژگی عمومی انتخابی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.MenuController.GetLandingMenu">
+            <summary>
+            دریافت تمام منوها
+            </summary>
+            <returns>لیست منوها بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.PostalCartController.GetAllPostalCart">
+            <summary>
+            دریافت تمامی کارت پستال های فعال
+            </summary>
+            <returns>لیست کارت پستال ها بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProductCommentController.AddUserProductComment(Core.Models.Request.Business.ProductComment.AddUserProductCommentRequest)">
+            <summary>
+            ثبت نظر کاربر
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProductCommentController.GetAllProductCommentUi(Core.Models.Request.Business.ProductComment.GetAllProductCommentUiRequest)">
+            <summary>
+            دریافت تمام نظرات محصول
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست نظرات بازگشت داده می شود</returns>       
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProductController.GetLandingDiscountedProduct">
+            <summary>
+            دریافت لیست محصولات پر تخفیف برای صفحه لندینگ
+            </summary>
+            <returns>لیست محصولات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProductController.GetLandingEconomicProduct">
+            <summary>
+            دریافت لیست محصولات اقتصادی ترین برای صفحه لندینگ
+            </summary>
+            <returns>لیست محصولات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProductController.GetLandingMostSalesProduct">
+            <summary>
+            دریافت لیست محصولات پر فروش ترین برای صفحه لندینگ
+            </summary>
+            <returns>لیست محصولات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProductController.GetLandingVipProduct">
+            <summary>
+            دریافت لیست محصولات برتر برای صفحه لندینگ
+            </summary>
+            <returns>لیست محصولات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProductController.GetAllProductUi(Core.Models.Request.Business.Product.GetAllProductUiRequest)">
+            <summary>
+            دریافت تمام محصولات برای صفحه محصولات
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست محصولات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProductController.GetDiscountedProductUi(Core.Models.Request.Business.Product.GetDiscountedProductUiRequest)">
+            <summary>
+            دریافت تمام محصولات تخفیف دار برای صفحه محصولات
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست محصولات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProductController.GetNewestProductUi(Core.Models.Request.Business.Product.GetNewestProductUiRequest)">
+            <summary>
+            دریافت تمام محصولات جدید برای صفحه محصولات
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست محصولات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProductController.GetExpensiveProductUi(Core.Models.Request.Business.Product.GetExpensiveProductUiRequest)">
+            <summary>
+            دریافت تمام محصولات گران قیمت برای صفحه محصولات
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست محصولات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProductController.GetCheapestProductUi(Core.Models.Request.Business.Product.GetCheapestProductUiRequest)">
+            <summary>
+            دریافت تمام محصولات ارزان قیمت برای صفحه محصولات
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست محصولات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProductController.GetProductDetailUi(Core.Models.Request.Business.Product.GetProductDetailUiRequest)">
+            <summary>
+            دریافت محصول بر اساس شناسه
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>محصول انتخابی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProductController.CheckProductForCart(System.Collections.Generic.List{Core.Models.Request.Business.Product.CheckProductForCartRequest})">
+            <summary>
+            بررسی اینکه محصولات سید خرید تغییراتی داشتند
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>محصولاتی که تغییر داشتند را بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProviderAbsorptionController.AddProviderAbsorption(Core.Models.Request.Business.ProviderAbsorption.AddProviderAbsorptionRequest)">
+            <summary>
+            ثبت درخواست جذب تامین کننده
+            </summary>
+            <param name="request">پارامتر های مورد نیاز</param>
+            <returns>نتیجه عملیات برگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProviderController.GetProviderUi">
+            <summary>
+            دریافت تامین کنندگان برای صفحه محصولات
+            </summary>
+            <returns>لیست تامین کنندگان بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProviderController.GetProviderLandingSideBar">
+            <summary>
+            دریافت تامین کنندگان برای ساید بار
+            </summary>
+            <returns>لیست تامین کنندگان بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProviderController.GetProviderDetailUi(Core.Models.Request.Business.Provider.GetProviderDetailUiRequest)">
+            <summary>
+            دریافت اطلاعات تامین کننده
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>اطلاعات تامین کننده بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProviderController.GetClosestProviderUi(Core.Models.Request.Business.Provider.GetClosestProviderUiRequest)">
+            <summary>
+            دریافت نزدیک ترین تامین کنندگان برای صفحه محصولات
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست تامین کنندگان بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.SideBarController.GetLandingSideBar(System.Int32)">
+            <summary>
+            دریافت تمام ساید براها
+            </summary>
+            <returns>لیست ساید بار بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.UserAddressController.GetAllUserAddress">
+            <summary>
+            نمایش آدرس ها 
+            </summary>
+            <returns>لیست آدرس ها بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.UserAddressController.GetUserAddressById(Core.Models.Request.Security.UserAddress.GetUserAddressByIdRequest)">
+            <summary>
+            نمایش آدرس بر اساس شناسه 
+            </summary>
+            <returns>آدرس انتخابی بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.UserAddressController.GetDefaultUserAddress">
+            <summary>
+            نمایش آدرس پیش فرش 
+            </summary>
+            <returns>آدرس پیش فرش بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.UserAddressController.AddUserAddress(Core.Models.Request.Security.UserAddress.AddUserAddressRequest)">
+            <summary>
+            افزودن آدرس برای سید خرید 
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.UserAddressController.UpdateUserAddress(Core.Models.Request.Security.UserAddress.UpdateUserAddressRequest)">
+            <summary>
+            ویرایش آدرس برای سید خرید 
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.UserAddressController.DeleteUserAddress(Core.Models.Request.Security.UserAddress.DeleteUserAddressRequest)">
+            <summary>
+            حذف آدرس برای سید خرید 
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>نتیجه عملیات بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.API.Controllers.Common.CategoryController.GetCategoryDropDown">
+            <summary>
+            دریافت دسته برای باکس کشویی
+            </summary>
+            <returns>لیست دسته ها بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.API.Controllers.Common.CityController.GetCity(System.Int32)">
+            <summary>
+            دریافت تمام شهر بر اساس استان انتخابی
+            </summary>
+            <param name="provinceId">شناسه استان</param>
+            <returns>لیست شهرها بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.API.Controllers.Common.DistrictController.GetDistrict(System.Int32)">
+            <summary>
+            دریافت تمام محله بر اساس شهر انتخابی
+            </summary>
+            <param name="cityId">شناسه شهر</param>
+            <returns>لیست محله ها بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.API.Controllers.Common.ProvinceController.GetProvince">
+            <summary>
+            دریافت تمام استان ها
+            </summary>
+            <returns>لیست استان بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.API.Controllers.Common.RegionController.GetRegion(System.Int32)">
+            <summary>
+            دریافت تمام مناطق بر اساس شهر انتخابی
+            </summary>
+            <param name="cityId">شناسه شهر</param>
+            <returns>لیست مناطق بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.API.Controllers.Common.StoreConfigController.GetStoreConfig">
+            <summary>
+            دریافت تنظیمات فروشگاه
+            </summary>
+            <returns>دریافت تنظیمات فروشگاه دریافت می شود</returns>
+        </member>
+        <member name="M:Core.API.Controllers.Common.ValueController.GetCompleteValueDropDown">
+            <summary>
+            دریافت مقادیر به همراه ویژگی عمومی مناطق بر اساس دسته انتخابی
+            </summary>
+            <returns>لیست مقادیر به همراه ویژگی عمومی بازگشت داده می شود</returns>
+        </member>
+    </members>
+</doc>

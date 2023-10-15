@@ -1,0 +1,10 @@
+D:\@Workspace\Orkinet\GolonetCore\Core.Common\bin\Release\netcoreapp3.1\Core.Common.deps.json
+D:\@Workspace\Orkinet\GolonetCore\Core.Common\bin\Release\netcoreapp3.1\Core.Common.dll
+D:\@Workspace\Orkinet\GolonetCore\Core.Common\bin\Release\netcoreapp3.1\Core.Common.pdb
+D:\@Workspace\Orkinet\GolonetCore\Core.Common\obj\Release\netcoreapp3.1\Core.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\@Workspace\Orkinet\GolonetCore\Core.Common\obj\Release\netcoreapp3.1\Core.Common.AssemblyInfoInputs.cache
+D:\@Workspace\Orkinet\GolonetCore\Core.Common\obj\Release\netcoreapp3.1\Core.Common.AssemblyInfo.cs
+D:\@Workspace\Orkinet\GolonetCore\Core.Common\obj\Release\netcoreapp3.1\Core.Common.csproj.CoreCompileInputs.cache
+D:\@Workspace\Orkinet\GolonetCore\Core.Common\obj\Release\netcoreapp3.1\Core.Common.dll
+D:\@Workspace\Orkinet\GolonetCore\Core.Common\obj\Release\netcoreapp3.1\Core.Common.pdb
+D:\@Workspace\Orkinet\GolonetCore\Core.Common\obj\Release\netcoreapp3.1\Core.Common.csproj.AssemblyReference.cache
