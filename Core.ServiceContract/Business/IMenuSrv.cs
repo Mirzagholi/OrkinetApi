@@ -10,5 +10,7 @@ namespace Core.ServiceContract.Business
         Task<IEnumerable<GetRootMenuBoxVm>> GetRootMenuBoxAsync();
         Task<IEnumerable<GetSubMenuBoxVm>> GetSubMenuBoxAsync(int id);
         Task<IEnumerable<GetLandingMenuVm>> GetLandingMenuAsync();
+
+        Task<IEnumerable<MainMenuVm>> GetMainMenuAsync();
     }
 }

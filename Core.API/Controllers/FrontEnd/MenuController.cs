@@ -63,6 +63,12 @@ namespace Core.Api.Controllers.FrontEnd
             return Ok(await _menuSrv.GetLandingMenuAsync());
         }
 
+        [HttpGet("getmainmenu")]
+        public async Task<ActionResult> GetMainMenu()
+        {
+            return Ok(await _menuSrv.GetMainMenuAsync());
+        }
+
         #endregion Methods
     }
 }

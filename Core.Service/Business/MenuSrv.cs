@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using BingCdn.NetCoreConnector;
 using Core.Common.ShareContract;
 using Core.DataContract;
+using Core.Models.Enum.Common;
 using Core.Models.Parameter.Business.Menu;
 using Core.Models.ViewModel.Business.Menu;
 using Core.ServiceContract.Business;
@@ -93,6 +94,37 @@ namespace Core.Service.Business
             var results =
                 await _repository.Sp_GetLandingMenu();
             var response = new List<GetLandingMenuVm>();
+
+            if (results == null || results.Count() == 0)
+                return null;
+
+            if (!results.Any(z => z.CdnImageId.HasValue))
+                return results;
+
+            var cdnFiles = await _cdnService.GetCdnManyFilePathAsync(results.Where(z => z.CdnImageId.HasValue).Select(z => z.CdnImageId.Value).ToArray());
+
+            foreach (var item in results.ToArray())
+            {
+                if (item.CdnImageId.HasValue)
+                {
+                    var photo = cdnFiles.FirstOrDefault(z => z.Id == item.CdnImageId.Value);
+                    if (photo != null)
+                        item.Image = photo.Path;
+                }
+
+                if (item.ParentId == null)
+                    response.Add(item);
+                else
+                    response.FirstOrDefault(z => z.Id == item.ParentId && z.MenuTypeId == item.MenuTypeId)?.SubMenu.Add(item);
+            }
+            return response;
+        }
+
+        public async Task<IEnumerable<MainMenuVm>> GetMainMenuAsync()
+        {
+            var results =
+                await _repository.Sp_GetMainMenu(new GetMainMenuParam() { IsActiveOnly = true, MenuTypeId = (int)MenuType.Modern  });
+            var response = new List<MainMenuVm>();
 
             if (results == null || results.Count() == 0)
                 return null;

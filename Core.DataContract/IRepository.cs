@@ -151,6 +151,7 @@ namespace Core.DataContract
         Task<IEnumerable<GetRootMenuBoxVm>> Sp_GetRootMenuBox();
         Task<IEnumerable<GetSubMenuBoxVm>> Sp_GetSubMenuBox(GetSubMenuBoxParam parameters);
         Task<IEnumerable<GetLandingMenuVm>> Sp_GetLandingMenu();
+        Task<IEnumerable<MainMenuVm>> Sp_GetMainMenu(GetMainMenuParam parameters);
 
         #endregion
 
