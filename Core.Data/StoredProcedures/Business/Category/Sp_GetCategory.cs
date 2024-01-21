@@ -11,5 +11,10 @@ namespace Core.Data.Repository
                 (
                     "Business.sp_GetCategory"
         );
+
+        public async Task<IEnumerable<GetCategoryVm>> Sp_GetCategoryInFirstPage() => await _context.GetManyAsync<GetCategoryVm>
+               (
+                   "Business.sp_GetCategoryInFirstPage"
+       );
     }
 }

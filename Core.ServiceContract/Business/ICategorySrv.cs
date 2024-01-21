@@ -14,6 +14,8 @@ namespace Core.ServiceContract.Business
         Task<ServiceResult> UpdateCategoryStatusAsync(UpdateCategoryStatusRequest request);
         Task<GetCategoryByIdVm> GetCategoryByIdAsync(int id);
         Task<IEnumerable<GetCategoryVm>> GetCategoryAsync();
+        Task<IEnumerable<GetCategoryVm>> GetCategoryInFirstPageAsync();
+
         Task<IEnumerable<GetCategoryDropDownVm>> GetCategoryDropDownAsync();
     }
 }

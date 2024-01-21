@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Api\\Core.API.csproj": {}
+    "D:\\jafarzadeh\\projects\\Ork\\Core.Api\\Core.API.csproj": {}
   },
   "projects": {
-    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Api\\Core.API.csproj": {
+    "D:\\jafarzadeh\\projects\\Ork\\Core.Api\\Core.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Api\\Core.API.csproj",
+        "projectUniqueName": "D:\\jafarzadeh\\projects\\Ork\\Core.Api\\Core.API.csproj",
         "projectName": "Core.API",
-        "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Api\\Core.API.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Api\\obj\\",
+        "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Api\\Core.API.csproj",
+        "packagesPath": "C:\\Users\\jjafarzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Api\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jjafarzadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,20 +27,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj"
               },
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Ioc\\Core.Ioc.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Ioc\\Core.Ioc.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.Ioc\\Core.Ioc.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Ioc\\Core.Ioc.csproj"
               },
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Service\\Core.Service.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Service\\Core.Service.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.Service\\Core.Service.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Service\\Core.Service.csproj"
               }
             }
           }
@@ -102,21 +108,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj": {
+    "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj",
+        "projectUniqueName": "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj",
         "projectName": "Core.Common",
-        "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\obj\\",
+        "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj",
+        "packagesPath": "C:\\Users\\jjafarzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jjafarzadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -124,6 +135,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -227,21 +239,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.DataContract\\Core.DataContract.csproj": {
+    "D:\\jafarzadeh\\projects\\Ork\\Core.DataContract\\Core.DataContract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.DataContract\\Core.DataContract.csproj",
+        "projectUniqueName": "D:\\jafarzadeh\\projects\\Ork\\Core.DataContract\\Core.DataContract.csproj",
         "projectName": "Core.DataContract",
-        "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.DataContract\\Core.DataContract.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.DataContract\\obj\\",
+        "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.DataContract\\Core.DataContract.csproj",
+        "packagesPath": "C:\\Users\\jjafarzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\jafarzadeh\\projects\\Ork\\Core.DataContract\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jjafarzadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -249,17 +266,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj"
               },
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.Models\\Core.Models.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Models\\Core.Models.csproj"
               }
             }
           }
@@ -295,21 +313,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Data\\Core.Data.csproj": {
+    "D:\\jafarzadeh\\projects\\Ork\\Core.Data\\Core.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Data\\Core.Data.csproj",
+        "projectUniqueName": "D:\\jafarzadeh\\projects\\Ork\\Core.Data\\Core.Data.csproj",
         "projectName": "Core.Data",
-        "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Data\\Core.Data.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Data\\obj\\",
+        "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Data\\Core.Data.csproj",
+        "packagesPath": "C:\\Users\\jjafarzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Data\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jjafarzadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -317,20 +340,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj"
               },
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.DataContract\\Core.DataContract.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.DataContract\\Core.DataContract.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.DataContract\\Core.DataContract.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.DataContract\\Core.DataContract.csproj"
               },
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.Models\\Core.Models.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Models\\Core.Models.csproj"
               }
             }
           }
@@ -374,21 +398,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Ioc\\Core.Ioc.csproj": {
+    "D:\\jafarzadeh\\projects\\Ork\\Core.Ioc\\Core.Ioc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Ioc\\Core.Ioc.csproj",
+        "projectUniqueName": "D:\\jafarzadeh\\projects\\Ork\\Core.Ioc\\Core.Ioc.csproj",
         "projectName": "Core.Ioc",
-        "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Ioc\\Core.Ioc.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Ioc\\obj\\",
+        "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Ioc\\Core.Ioc.csproj",
+        "packagesPath": "C:\\Users\\jjafarzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Ioc\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jjafarzadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -396,26 +425,27 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj"
               },
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Data\\Core.Data.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Data\\Core.Data.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.Data\\Core.Data.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Data\\Core.Data.csproj"
               },
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.Models\\Core.Models.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Models\\Core.Models.csproj"
               },
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.ServiceContract\\Core.ServiceContract.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.ServiceContract\\Core.ServiceContract.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.ServiceContract\\Core.ServiceContract.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.ServiceContract\\Core.ServiceContract.csproj"
               },
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Service\\Core.Service.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Service\\Core.Service.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.Service\\Core.Service.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Service\\Core.Service.csproj"
               }
             }
           }
@@ -451,21 +481,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj": {
+    "D:\\jafarzadeh\\projects\\Ork\\Core.Models\\Core.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj",
+        "projectUniqueName": "D:\\jafarzadeh\\projects\\Ork\\Core.Models\\Core.Models.csproj",
         "projectName": "Core.Models",
-        "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\obj\\",
+        "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Models\\Core.Models.csproj",
+        "packagesPath": "C:\\Users\\jjafarzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jjafarzadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -473,14 +508,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj"
               }
             }
           }
@@ -510,21 +546,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.ServiceContract\\Core.ServiceContract.csproj": {
+    "D:\\jafarzadeh\\projects\\Ork\\Core.ServiceContract\\Core.ServiceContract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.ServiceContract\\Core.ServiceContract.csproj",
+        "projectUniqueName": "D:\\jafarzadeh\\projects\\Ork\\Core.ServiceContract\\Core.ServiceContract.csproj",
         "projectName": "Core.ServiceContract",
-        "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.ServiceContract\\Core.ServiceContract.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.ServiceContract\\obj\\",
+        "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.ServiceContract\\Core.ServiceContract.csproj",
+        "packagesPath": "C:\\Users\\jjafarzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\jafarzadeh\\projects\\Ork\\Core.ServiceContract\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jjafarzadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -532,14 +573,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.Models\\Core.Models.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Models\\Core.Models.csproj"
               }
             }
           }
@@ -569,21 +611,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Service\\Core.Service.csproj": {
+    "D:\\jafarzadeh\\projects\\Ork\\Core.Service\\Core.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Service\\Core.Service.csproj",
+        "projectUniqueName": "D:\\jafarzadeh\\projects\\Ork\\Core.Service\\Core.Service.csproj",
         "projectName": "Core.Service",
-        "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Service\\Core.Service.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Service\\obj\\",
+        "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Service\\Core.Service.csproj",
+        "packagesPath": "C:\\Users\\jjafarzadeh\\.nuget\\packages\\",
+        "outputPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Service\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jjafarzadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -591,23 +638,24 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Common\\Core.Common.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj"
               },
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Data\\Core.Data.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Data\\Core.Data.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.Data\\Core.Data.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Data\\Core.Data.csproj"
               },
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.Models\\Core.Models.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.Models\\Core.Models.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Models\\Core.Models.csproj"
               },
-              "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.ServiceContract\\Core.ServiceContract.csproj": {
-                "projectPath": "C:\\Orkinet\\source\\14020425\\Core\\Core\\Core.ServiceContract\\Core.ServiceContract.csproj"
+              "D:\\jafarzadeh\\projects\\Ork\\Core.ServiceContract\\Core.ServiceContract.csproj": {
+                "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.ServiceContract\\Core.ServiceContract.csproj"
               }
             }
           }
@@ -647,7 +695,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

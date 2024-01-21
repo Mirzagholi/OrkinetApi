@@ -142,6 +142,7 @@ namespace Core.DataContract
         Task<UpdateCategoryStatusVm> Sp_UpdateCategoryStatus(UpdateCategoryStatusParam parameters);
         Task<GetCategoryByIdVm> Sp_GetCategoryById(GetCategoryByIdParam parameters);
         Task<IEnumerable<GetCategoryVm>> Sp_GetCategory();
+        Task<IEnumerable<GetCategoryVm>> Sp_GetCategoryInFirstPage();
         Task<IEnumerable<GetCategoryDropDownVm>> Sp_GetCategoryDropDown();
 
         #endregion
@@ -262,6 +263,8 @@ namespace Core.DataContract
         Task<BasePagingResult<GetNewestProductUiVm>> Sp_GetNewestProductUi(GetNewestProductUiParam parameters);
         Task<BasePagingResult<GetExpensiveProductUiVm>> Sp_GetExpensiveProductUi(GetExpensiveProductUiParam parameters);
         Task<BasePagingResult<GetCheapestProductUiVm>> Sp_GetCheapestProductUi(GetCheapestProductUiParam parameters);
+        Task<BasePagingResult<GetFirstPageProductUiVm>> Sp_GetFirstPageProductUi(GetFirstPageProductUiParam parameters);
+
         Task<BaseProductDetailResult<GetProductDetailUiVm>> Sp_GetProductDetailUi(GetProductDetailUiParam parameters);
         Task<IEnumerable<CheckProductForCartVm>> Sp_CheckProductForCart(CheckProductForCartParam parameters);
         Task<BaseProductPagingResult<GetAllProductForAdminVm, GetAllProductAttrValForAdminVm, GetAllProductPrivateAttrValForAdminVm, GetAllProductPhotosForAdminVm, GetAllProductCategoryForAdminVm>>

@@ -261,6 +261,11 @@
             توضیحات
             </summary>
         </member>
+        <member name="P:Core.Models.Request.Business.Category.AddCategoryRequest.ShowInFirstPage">
+            <summary>
+            نمایش در صفحه اول
+            </summary>
+        </member>
         <member name="P:Core.Models.Request.Business.Category.UpdateCategoryRequest.Id">
             <summary>
             شناسه دسته
@@ -289,6 +294,11 @@
         <member name="P:Core.Models.Request.Business.Category.UpdateCategoryRequest.Description">
             <summary>
             توضیحات
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Category.UpdateCategoryRequest.ShowInFirstPage">
+            <summary>
+            نمایش در صفحه اول
             </summary>
         </member>
         <member name="P:Core.Models.Request.Business.Category.UpdateCategoryStatusRequest.Id">
@@ -822,6 +832,16 @@
             </summary>
         </member>
         <member name="P:Core.Models.Request.Business.Product.GetExpensiveProductUiRequest.PageRecord">
+            <summary>
+            تعداد رکورد ها جهت نمایش
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetFirstPageProductUiRequest.CategoryId">
+            <summary>
+            شناسه دسته
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetFirstPageProductUiRequest.PageRecord">
             <summary>
             تعداد رکورد ها جهت نمایش
             </summary>

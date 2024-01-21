@@ -28,5 +28,11 @@ namespace Core.Models.Request.Business.Category
         /// توضیحات
         /// </summary>
         public string Description { get; set; }
+
+        /// <summary>
+        /// نمایش در صفحه اول
+        /// </summary>
+        public bool ShowInFirstPage { get; set; }
+        
     }
 }
