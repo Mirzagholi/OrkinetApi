@@ -491,6 +491,34 @@ namespace Core.Service.Business
             return response;
         }
 
+
+        public async Task<BasePagingResult<GetFirstPageProductUiVm>> GetFirstPageProductUiAsync(GetFirstPageProductUiRequest request)
+        {
+            var results =
+                await _repository.Sp_GetFirstPageProductUi(new GetFirstPageProductUiParam
+                {
+                    CategoryId = request.CategoryId,
+                    ProductListTypeId = request.ProductListTypeId,
+                    PageRecord = request.PageRecord,
+
+                    
+                });
+
+            if (results == null || results?.List == null || results?.List.Count() == 0)
+                return null;
+
+            var cdnFiles = await _cdnService.GetCdnManyFilePathAsync(results.List.Select(z => z.CdnFileId).ToArray());
+
+            foreach (var result in results?.List.ToList())
+            {
+                var photo = cdnFiles.FirstOrDefault(z => z.Id == result.CdnFileId);
+                if (photo != null)
+                    result.Photo = photo.Path;
+            }
+            return results;
+        }
+        
+
         #endregion
     }
 }

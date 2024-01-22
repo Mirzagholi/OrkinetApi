@@ -86,6 +86,10 @@ namespace Core.Api.Controllers.Admin
             return Ok(await _categorySrv.GetCategoryAsync());
         }
 
+
+        
+
+
         #endregion Methods
     }
 }

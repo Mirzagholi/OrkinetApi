@@ -811,6 +811,12 @@
             </summary>
             <returns>لیست حالات نبودن مشتری بازگشت داده می شود</returns>
         </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.CategoryController.GetCategoryDropDown">
+            <summary>
+            دریافت دسته برای باکس کشویی
+            </summary>
+            <returns>لیست دسته ها بازگشت داده می شود</returns>
+        </member>
         <member name="M:Core.Api.Controllers.FrontEnd.ContactController.AddContactUs(Core.Models.Request.Business.Contact.AddContactUsRequest)">
             <summary>
             ثبت فرم ارتباط با سایت
@@ -950,6 +956,13 @@
             </summary>
             <param name="model">پارامتر های ورودی</param>
             <returns>محصولاتی که تغییر داشتند را بازگشت داده می شود</returns>
+        </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.ProductController.GetFirstPageProductUi(Core.Models.Request.Business.Product.GetFirstPageProductUiRequest)">
+            <summary>
+            دریافت تمام محصولات ارزان قیمت برای صفحه محصولات
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست محصولات بازگشت داده می شود</returns>
         </member>
         <member name="M:Core.Api.Controllers.FrontEnd.ProviderAbsorptionController.AddProviderAbsorption(Core.Models.Request.Business.ProviderAbsorption.AddProviderAbsorptionRequest)">
             <summary>

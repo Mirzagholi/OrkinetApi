@@ -45,7 +45,8 @@ namespace Core.Service.Business
                     Order = request.Order ?? 1,
                     Icon = request.Icon,
                     StatusId = (int)StatusType.Active,
-                    Description = request.Description
+                    Description = request.Description,
+                    ShowInFirstPage = request.ShowInFirstPage
                 });
 
             return _serviceResultHelper.Response(response);
@@ -61,7 +62,8 @@ namespace Core.Service.Business
                     ParentId = request.ParentId,
                     Order = request.Order ?? 1,
                     Icon = request.Icon,
-                    Description = request.Description
+                    Description = request.Description,
+                    ShowInFirstPage = request.ShowInFirstPage
                 });
 
             return _serviceResultHelper.Response(response);
@@ -82,6 +84,8 @@ namespace Core.Service.Business
         public async Task<GetCategoryByIdVm> GetCategoryByIdAsync(int id) => await _repository.Sp_GetCategoryById(new GetCategoryByIdParam() { Id = id });
 
         public async Task<IEnumerable<GetCategoryVm>> GetCategoryAsync() => await _repository.Sp_GetCategory();
+
+        public async Task<IEnumerable<GetCategoryVm>> GetCategoryInFirstPageAsync() => await _repository.Sp_GetCategoryInFirstPage();
 
         public async Task<IEnumerable<GetCategoryDropDownVm>> GetCategoryDropDownAsync() => await _repository.Sp_GetCategoryDropDown();
 

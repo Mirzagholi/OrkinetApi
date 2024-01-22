@@ -10,5 +10,8 @@ namespace Core.Models.Parameter.Business.Category
         public string Icon { get; set; }
         public int? StatusId { get; set; }
         public string Description { get; set; }
+        public bool ShowInFirstPage { get; set; }
+        
+
     }
 }

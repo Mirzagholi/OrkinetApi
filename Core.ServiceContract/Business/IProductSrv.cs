@@ -31,5 +31,8 @@ namespace Core.ServiceContract.Business
         Task<BasePagingResult<GetAllProductForAdminVm>> GetAllProductForAdminAsync(GetAllProductForAdminRequest request);
         Task<ServiceResult> ConfirmProductAsync(ConfirmProductRequest request);
         Task<GetProviderProductByIdVm> GetProviderProductByIdAsync(int id);
+
+        Task<BasePagingResult<GetFirstPageProductUiVm>> GetFirstPageProductUiAsync(GetFirstPageProductUiRequest request);
+        
     }
 }

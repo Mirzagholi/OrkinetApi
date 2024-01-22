@@ -13,6 +13,15 @@ namespace Core.Data.Repository
                 parameters
             );
 
+
+        public async Task<BasePagingResult<GetFirstPageProductUiVm>> Sp_GetFirstPageProductUi(GetFirstPageProductUiParam parameters) => await _context.GetManyWithPagingAsync<GetFirstPageProductUiVm>
+            (
+                "Business.sp_GetFirstPageProductUi",
+                parameters
+            );
+
+        
+
     }
 
 }

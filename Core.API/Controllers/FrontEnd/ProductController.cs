@@ -147,7 +147,18 @@ namespace Core.Api.Controllers.FrontEnd
             return Ok(await _productSrv.CheckProductForCartAsync(model));
         }
 
-        
+
+        /// <summary>
+        /// دریافت تمام محصولات ارزان قیمت برای صفحه محصولات
+        /// </summary>
+        /// <param name="model">پارامتر های ورودی</param>
+        /// <returns>لیست محصولات بازگشت داده می شود</returns>
+        [HttpGet("getfirstpageproductui")]
+        public async Task<ActionResult> GetFirstPageProductUi([FromQuery] GetFirstPageProductUiRequest model)
+        {
+            return Ok(await _productSrv.GetFirstPageProductUiAsync(model));
+        }
+
 
         #endregion Methods
     }

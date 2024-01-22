@@ -14,6 +14,8 @@ namespace Core.Models.ViewModel.Business.Category
         public StatusType StatusId { get; set; }
         public string StatusText => StatusId.GetStatusTextByCulture();
         public string Description { get; set; }
+        public bool ShowInFirstPage { get; set; }
+
 
     }
 }
