@@ -11,6 +11,11 @@
             create a new `SerialNumber` GUID and store it in the DB.
             </summary>
         </member>
+        <member name="P:Core.Models.Parameter.Business.Category.GetCategoryInFirstPageParam.PageRecord">
+            <summary>
+            تعداد رکورد ها جهت نمایش
+            </summary>
+        </member>
         <member name="P:Core.Models.Parameter.Security.User.LoginOrRegisterParam.MobileNumber">
             <summary>
             شماره موبایل
@@ -842,6 +847,16 @@
             </summary>
         </member>
         <member name="P:Core.Models.Request.Business.Product.GetFirstPageProductUiRequest.PageRecord">
+            <summary>
+            تعداد رکورد ها جهت نمایش
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetFirstPageCategoryUiRequest.ParentCategoryId">
+            <summary>
+            شناسه دسته
+            </summary>
+        </member>
+        <member name="P:Core.Models.Request.Business.Product.GetFirstPageCategoryUiRequest.PageRecord">
             <summary>
             تعداد رکورد ها جهت نمایش
             </summary>

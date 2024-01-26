@@ -34,3 +34,15 @@ D:\jafarzadeh\projects\Ork\Core.Common\obj\Debug\net6.0\Core.Common.dll
 D:\jafarzadeh\projects\Ork\Core.Common\obj\Debug\net6.0\refint\Core.Common.dll
 D:\jafarzadeh\projects\Ork\Core.Common\obj\Debug\net6.0\Core.Common.pdb
 D:\jafarzadeh\projects\Ork\Core.Common\obj\Debug\net6.0\ref\Core.Common.dll
+D:\projects\Orkinet\Core.Common\bin\Debug\net6.0\Core.Common.deps.json
+D:\projects\Orkinet\Core.Common\bin\Debug\net6.0\Core.Common.dll
+D:\projects\Orkinet\Core.Common\bin\Debug\net6.0\Core.Common.pdb
+D:\projects\Orkinet\Core.Common\obj\Debug\net6.0\Core.Common.csproj.AssemblyReference.cache
+D:\projects\Orkinet\Core.Common\obj\Debug\net6.0\Core.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\projects\Orkinet\Core.Common\obj\Debug\net6.0\Core.Common.AssemblyInfoInputs.cache
+D:\projects\Orkinet\Core.Common\obj\Debug\net6.0\Core.Common.AssemblyInfo.cs
+D:\projects\Orkinet\Core.Common\obj\Debug\net6.0\Core.Common.csproj.CoreCompileInputs.cache
+D:\projects\Orkinet\Core.Common\obj\Debug\net6.0\Core.Common.dll
+D:\projects\Orkinet\Core.Common\obj\Debug\net6.0\refint\Core.Common.dll
+D:\projects\Orkinet\Core.Common\obj\Debug\net6.0\Core.Common.pdb
+D:\projects\Orkinet\Core.Common\obj\Debug\net6.0\ref\Core.Common.dll

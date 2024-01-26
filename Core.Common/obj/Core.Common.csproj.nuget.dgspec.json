@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj": {}
+    "D:\\projects\\Orkinet\\Core.Common\\Core.Common.csproj": {}
   },
   "projects": {
-    "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj": {
+    "D:\\projects\\Orkinet\\Core.Common\\Core.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj",
+        "projectUniqueName": "D:\\projects\\Orkinet\\Core.Common\\Core.Common.csproj",
         "projectName": "Core.Common",
-        "projectPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\Core.Common.csproj",
-        "packagesPath": "C:\\Users\\jjafarzadeh\\.nuget\\packages\\",
-        "outputPath": "D:\\jafarzadeh\\projects\\Ork\\Core.Common\\obj\\",
+        "projectPath": "D:\\projects\\Orkinet\\Core.Common\\Core.Common.csproj",
+        "packagesPath": "C:\\Users\\sadad\\.nuget\\packages\\",
+        "outputPath": "D:\\projects\\Orkinet\\Core.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jjafarzadeh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sadad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -131,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
