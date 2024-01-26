@@ -9,6 +9,7 @@ using Core.Common.Base;
 using Core.Common.ShareContract;
 using Core.Common.ShareModels;
 using Core.DataContract;
+using Core.Models.Enum.Common;
 using Core.Models.Parameter.Business.WebSiteFile;
 using Core.Models.Request.Business.WebSiteFile;
 using Core.Models.ViewModel.Business.WebSiteFile;
@@ -65,6 +66,7 @@ namespace Core.Service.Business
             var results =
                 await _repository.Sp_GetAllWebSiteFile(new GetAllWebSiteFileParam
             {
+                FileGroupTypeId = request.FileGroupTypeId,
                 PageNumber = request.PageNumber,
                 PageRecord = request.PageRecord,
                 SortColumn = request.SortColumn,

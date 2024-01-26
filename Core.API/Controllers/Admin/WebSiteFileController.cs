@@ -5,11 +5,11 @@ using Core.Common.Base.Controllers;
 using Core.ServiceContract.Business;
 using Core.Models.Request.Business.WebSiteFile;
 
-namespace Core.Api.Controllers.Admin
+namespace Core.Api.Controllers.FrontEnd
 {
-    [Authorize(Roles = "Admin, Blogger")]
-    [ApiController, Route("api/admin/websitefile")]
-    [ApiExplorerSettings(IgnoreApi = true)]
+
+    [ApiController, Route("api/websitefile")]
+    [AllowAnonymous]
     public class WebSiteFileController : BaseController
     {
         #region Property
@@ -28,17 +28,6 @@ namespace Core.Api.Controllers.Admin
 
         #region Methods
 
-        /// <summary>
-        /// افزودن فایل
-        /// </summary>
-        /// <param name="model">پارامتر های ورودی</param>
-        /// <returns>نتیجه عملیات بازگشت داده می شود</returns>
-        [HttpPost("addwebsitefile")]
-        [IgnoreAntiforgeryToken]
-        public async Task<ActionResult> AddWebSiteFile([FromForm] AddWebSiteFileRequest model)
-        {
-            return Ok(await _webSiteFileSrv.AddWebSiteFileAsync(model));
-        }
 
         /// <summary>
         /// دریافت تمام فایل ها
@@ -52,17 +41,7 @@ namespace Core.Api.Controllers.Admin
             return Ok(await _webSiteFileSrv.GetAllWebSiteFileAsync(model));
         }
 
-        /// <summary>
-        /// حذف فایل
-        /// </summary>
-        /// <param name="model">پارامتر های ورودی</param>
-        /// <returns>نتیجه عملیات بازگشت داده می شود</returns>
-        [HttpPost("deletewebsitefile")]
-        [IgnoreAntiforgeryToken]
-        public async Task<ActionResult> DeleteWebSiteFile(DeleteWebSiteFileRequest model)
-        {
-            return Ok(await _webSiteFileSrv.DeleteWebSiteFileAsync(model));
-        }
+
 
         #endregion Methods
     }

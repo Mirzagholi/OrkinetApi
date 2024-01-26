@@ -1,5 +1,6 @@
 ﻿using System.Threading.Tasks;
 using Core.Common.Base.Controllers;
+using Core.Models.Request.Business.Product;
 using Core.ServiceContract.Business;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -41,9 +42,9 @@ namespace Core.Api.Controllers.FrontEnd
 
         [AllowAnonymous]
         [HttpGet("getcategoryInFirstPage")]
-        public async Task<ActionResult> GetCategoryInFirstPage()
+        public async Task<ActionResult> GetCategoryInFirstPage([FromQuery] GetFirstPageCategoryUiRequest model)
         {
-            return Ok(await _categorySrv.GetCategoryInFirstPageAsync());
+            return Ok(await _categorySrv.GetCategoryInFirstPageAsync(model));
         }
 
 

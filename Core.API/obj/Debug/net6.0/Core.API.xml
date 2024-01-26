@@ -629,6 +629,13 @@
             </summary>
             <returns>لیست ویژگی های عمومی بازگشت داده می شود</returns>
         </member>
+        <member name="M:Core.Api.Controllers.FrontEnd.WebSiteFileController.GetAllWebSiteFile(Core.Models.Request.Business.WebSiteFile.GetAllWebSiteFileRequest)">
+            <summary>
+            دریافت تمام فایل ها
+            </summary>
+            <param name="model">پارامتر های ورودی</param>
+            <returns>لیست فایل ها بازگشت داده می شود</returns>
+        </member>
         <member name="M:Core.Api.Controllers.FrontEnd.AccountController.LoginOrRegister(Core.Models.Request.Security.User.LoginOrRegisterRequest)">
             <summary>
             بررسی وضعیت ثبت نام 

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
+using Core.Models.Parameter.Business.Category;
 using Core.Models.ViewModel.Business.Category;
 
 namespace Core.Data.Repository
@@ -12,9 +13,10 @@ namespace Core.Data.Repository
                     "Business.sp_GetCategory"
         );
 
-        public async Task<IEnumerable<GetCategoryVm>> Sp_GetCategoryInFirstPage() => await _context.GetManyAsync<GetCategoryVm>
+        public async Task<IEnumerable<GetCategoryVm>> Sp_GetCategoryInFirstPage(GetCategoryInFirstPageParam parameters) => await _context.GetManyAsync<GetCategoryVm>
                (
-                   "Business.sp_GetCategoryInFirstPage"
+                   "Business.sp_GetCategoryInFirstPage",
+                   parameters
        );
     }
 }

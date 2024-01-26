@@ -7,6 +7,7 @@ using Core.DataContract;
 using Core.Models.Enum.Common;
 using Core.Models.Parameter.Business.Category;
 using Core.Models.Request.Business.Category;
+using Core.Models.Request.Business.Product;
 using Core.Models.ViewModel.Business.Category;
 using Core.ServiceContract.Business;
 using Microsoft.AspNetCore.Http;
@@ -85,7 +86,13 @@ namespace Core.Service.Business
 
         public async Task<IEnumerable<GetCategoryVm>> GetCategoryAsync() => await _repository.Sp_GetCategory();
 
-        public async Task<IEnumerable<GetCategoryVm>> GetCategoryInFirstPageAsync() => await _repository.Sp_GetCategoryInFirstPage();
+        public async Task<IEnumerable<GetCategoryVm>> GetCategoryInFirstPageAsync(GetFirstPageCategoryUiRequest request) => await _repository.Sp_GetCategoryInFirstPage(
+             new GetCategoryInFirstPageParam()
+             {
+                 ParentCategoryId = request.ParentCategoryId,
+                 PageRecord = request.PageRecord
+             }
+            );
 
         public async Task<IEnumerable<GetCategoryDropDownVm>> GetCategoryDropDownAsync() => await _repository.Sp_GetCategoryDropDown();
 

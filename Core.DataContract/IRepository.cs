@@ -142,7 +142,7 @@ namespace Core.DataContract
         Task<UpdateCategoryStatusVm> Sp_UpdateCategoryStatus(UpdateCategoryStatusParam parameters);
         Task<GetCategoryByIdVm> Sp_GetCategoryById(GetCategoryByIdParam parameters);
         Task<IEnumerable<GetCategoryVm>> Sp_GetCategory();
-        Task<IEnumerable<GetCategoryVm>> Sp_GetCategoryInFirstPage();
+        Task<IEnumerable<GetCategoryVm>> Sp_GetCategoryInFirstPage(GetCategoryInFirstPageParam parameters);
         Task<IEnumerable<GetCategoryDropDownVm>> Sp_GetCategoryDropDown();
 
         #endregion
