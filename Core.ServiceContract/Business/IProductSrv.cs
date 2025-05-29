@@ -17,7 +17,7 @@ namespace Core.ServiceContract.Business
         Task<IEnumerable<GetProductDropDownVm>> GetProductDropDownAsync();
         Task<IEnumerable<GetLandingDiscountedProductVm>> GetLandingDiscountedProductAsync();
         Task<IEnumerable<GetLandingEconomicProductVm>> GetLandingEconomicProductAsync();
-        Task<IEnumerable<GetLandingMostSalesProductVm>> GetLandingMostSalesProductAsync();
+        Task<IEnumerable<GetLandingMostSalesProductVm>> GetLandingMostSalesProductAsync(GetProductByCategoryIdRequest parameters);
         Task<IEnumerable<GetLandingVipProductVm>> GetLandingVipProductAsync();
         Task<BasePagingResult<GetAllProductUiVm>> GetAllProductUiAsync(GetAllProductUiRequest request);
         Task<BasePagingResult<GetDiscountedProductUiVm>> GetDiscountedProductUiAsync(

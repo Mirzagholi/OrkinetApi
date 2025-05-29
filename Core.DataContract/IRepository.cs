@@ -75,6 +75,7 @@ using Core.Models.ViewModel.Business.WebSiteFile;
 using Core.Models.Parameter.Business.FinancialDocument;
 using Core.Models.ViewModel.Business.FinancialDocument;
 using Core.Models.ViewModel.Business.Product.GetProviderProductById;
+using Core.Models.Request.Business.Product;
 
 namespace Core.DataContract
 {
@@ -256,7 +257,7 @@ namespace Core.DataContract
         Task<IEnumerable<GetProductDropDownVm>> Sp_GetProductDropDown(GetProductDropDownParam parameters);
         Task<IEnumerable<GetLandingDiscountedProductVm>> Sp_GetLandingDiscountedProduct();
         Task<IEnumerable<GetLandingEconomicProductVm>> Sp_GetLandingEconomicProduct();
-        Task<IEnumerable<GetLandingMostSalesProductVm>> Sp_GetLandingMostSalesProduct();
+        Task<IEnumerable<GetLandingMostSalesProductVm>> Sp_GetLandingMostSalesProduct(GetProductByCategoryIdRequest parameters);
         Task<IEnumerable<GetLandingVipProductVm>> Sp_GetLandingVipProduct();
         Task<BasePagingResult<GetAllProductUiVm>> Sp_GetAllProductUi(GetAllProductUiParam parameters);
         Task<BasePagingResult<GetDiscountedProductUiVm>> Sp_GetDiscountedProductUi(GetDiscountedProductUiParam parameters);

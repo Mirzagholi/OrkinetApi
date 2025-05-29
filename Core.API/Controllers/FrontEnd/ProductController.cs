@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using Core.Common.Base.Controllers;
 using Core.Models.Request.Business.Product;
+using Core.Service.Business;
 using Core.ServiceContract.Business;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -54,9 +55,9 @@ namespace Core.Api.Controllers.FrontEnd
         /// </summary>
         /// <returns>لیست محصولات بازگشت داده می شود</returns>
         [HttpGet("getlandingmostsalesproduct")]
-        public async Task<ActionResult> GetLandingMostSalesProduct()
+        public async Task<ActionResult> GetLandingMostSalesProduct([FromQuery] GetProductByCategoryIdRequest model)
         {
-            return Ok(await _productSrv.GetLandingMostSalesProductAsync());
+            return Ok(await _productSrv.GetLandingMostSalesProductAsync(model));
         }
 
         /// <summary>

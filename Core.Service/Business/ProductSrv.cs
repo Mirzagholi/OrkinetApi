@@ -196,10 +196,10 @@ namespace Core.Service.Business
             return results;
         }
 
-        public async Task<IEnumerable<GetLandingMostSalesProductVm>> GetLandingMostSalesProductAsync()
+        public async Task<IEnumerable<GetLandingMostSalesProductVm>> GetLandingMostSalesProductAsync(GetProductByCategoryIdRequest parameters)
         {
             var results =
-                await _repository.Sp_GetLandingMostSalesProduct();
+                await _repository.Sp_GetLandingMostSalesProduct(parameters);
 
             if (results == null || results.Count() == 0)
                 return null;
